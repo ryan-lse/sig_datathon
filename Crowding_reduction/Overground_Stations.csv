@@ -1,0 +1,113 @@
+﻿X,Y,OBJECTID,NAME,ACCESSIBILITY,NETWORK,DATASET_LAST_UPDATED,FULL_NAME
+534775,184246,1,London Fields,Not Accessible,London Overground,2023/05/23 15:36:25+00,London Fields station
+532354.9976,185024.996400001,2,Canonbury,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Canonbury station
+533575.2999,184768.012599999,3,Dalston Junction,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Dalston Junction station
+534297.1083,193554.092399999,4,Edmondton Green,Not Accessible,London Overground,2023/05/23 15:36:26+00,Edmondton Green station
+533560.4422,183964.7315,5,Haggerston,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Haggerston station
+533576.8851,183147.8138,6,Hoxton,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Hoxton station
+536737.1657,177140.1428,7,New Cross,Fully Accessible,London Overground,2023/05/23 15:36:26+00,New Cross station
+536168.0003,177034.003799999,8,New Cross Gate,Not Accessible,London Overground,2023/05/23 15:36:26+00,New Cross Gate station
+535290.6409,179819.936799999,9,Rotherhithe,Not Accessible,London Overground,2023/05/23 15:36:26+00,Rotherhithe station
+534933.3389,180992.4573,10,Shadwell,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Shadwell station
+523804.0035,179984.9991,11,Shepherds Bush,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Shepherds Bush station
+533668.174,182239.3127,12,Shoreditch High Street,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Shoreditch High Street station
+536442.0116,188757.401799999,13,St. James Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Walthamstow St James Street station
+535623.6789,178967.6636,14,Surrey Quays,Not Accessible,London Overground,2023/05/23 15:36:26+00,Surrey Quays station
+535024.3542,180174.089600001,15,Wapping,Not Accessible,London Overground,2023/05/23 15:36:26+00,Wapping station
+525361.3786,178016.975500001,16,West Brompton,Not Accessible,London Overground,2023/05/23 15:36:26+00,Westompton station
+538507.655,189432.6556,17,Wood Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Walthamstow Wood Street station
+534643.6744,181916.353800001,18,Whitechapel,Not Accessible,London Overground,2023/05/23 15:36:26+00,Whitechapel station
+541856.5753,185349.448000001,19,Woodgrange Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Woodgrange Park station
+540545.8452,185601.3862,20,Wanstead Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Wanstead Park station
+544385.6715,184332.785,21,Barking,Not Accessible,London Overground,2023/05/23 15:36:26+00,Barking station
+533464.6796,188907.545700001,22,Seven Sisters,Not Accessible,London Overground,2023/05/23 15:36:26+00,Seven Sisters station
+533789.0034,190102.0031,23,Bruce Grove,Not Accessible,London Overground,2023/05/23 15:36:26+00,Bruce Grove station
+533682.0154,191341.0341,24,White Hart Lane,Not Accessible,London Overground,2023/05/23 15:36:26+00,White Hart Lane station
+533920.4556,192442.5273,25,Silver Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Silver Street station
+533697.2943,195396.772700001,26,Bush Hill Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Bush Hill Park station
+533006.0029,196524.004799999,27,Enfield Town,Not Accessible,London Overground,2023/05/23 15:36:26+00,Enfield Town station
+534838.6067,196235.770500001,28,Southbury,Not Accessible,London Overground,2023/05/23 15:36:26+00,Southbury station
+535136.6682,198931.986300001,29,Turkey Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Turkey Street station
+535913.7946,201103.763699999,30,Theobalds Grove,Not Accessible,London Overground,2023/05/23 15:36:26+00,Theobalds Grove station
+536656.9984,202283.995999999,31,Cheshunt,Not Accessible,London Overground,2023/05/23 15:36:26+00,Cheshunt station
+534799.0272,186554.1921,32,Clapton,Not Accessible,London Overground,2023/05/23 15:36:26+00,Clapton station
+538569.1085,191838.7722,33,Highams Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Highams Park station
+539210.9968,194619.0001,34,Chingford,Not Accessible,London Overground,2023/05/23 15:36:26+00,Chingford station
+551353.5955,188454.472899999,35,Romford,Not Accessible,London Overground,2023/05/23 15:36:26+00,Romford station
+553973.9004,187861.2883,36,Emerson Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Emerson Park station
+556227.5259,186878.344699999,37,Upminster,Not Accessible,London Overground,2023/05/23 15:36:26+00,Upminster station
+533301.003,181937.000299999,38,Liverpool Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Liverpool Street station
+534701.9846,182321.1801,39,Bethnal Green,Not Accessible,London Overground,2023/05/23 15:36:26+00,Bethnal Green station
+534839.1927,183263.2589,40,Cambridge Heath,Not Accessible,London Overground,2023/05/23 15:36:26+00,Cambridge Heath station
+534566.3084,185106.723200001,41,Hackney Downs,Not Accessible,London Overground,2023/05/23 15:36:26+00,Hackney Downs station
+533979.4235,186241.0076,42,Rectory Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Rectory Road station
+533723.758,186848.285800001,43,Stoke Newington,Not Accessible,London Overground,2023/05/23 15:36:26+00,Stoke Newington station
+533388.5481,187947.676899999,44,Stamford Hill,Not Accessible,London Overground,2023/05/23 15:36:26+00,Stamford Hill station
+518173.6912,175183.7278,45,Richmond,Not Accessible,London Overground,2023/05/23 15:36:26+00,Richmond station
+519196.0038,176736.9988,46,Kew Gardens,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kew Gardens station
+519819.0006,178351.9965,47,Gunnersbury,Not Accessible,London Overground,2023/05/23 15:36:26+00,Gunnersbury station
+518199.704,185053.659700001,48,Wembley Central,Not Accessible,London Overground,2023/05/23 15:36:26+00,Wembley Central station
+519672.9971,184185.9966,49,Stonebridge Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Stonebridge Park station
+517332.0405,187055.707699999,50,South Kenton,Not Accessible,London Overground,2023/05/23 15:36:26+00,South Kenton station
+517653.416,186235.421499999,51,North Wembley,Not Accessible,London Overground,2023/05/23 15:36:26+00,North Wembley station
+516707.6461,188340.055500001,52,Kenton,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kenton station
+515448.3268,189442.0978,53,Harrow & Wealdstone,Not Accessible,London Overground,2023/05/23 15:36:26+00,Harrow & Wealdstone station
+511047.384,197268.3751,54,Watford Junction,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Watford Junction station
+511346.7212,196083.897500001,55,Watford High Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Watford High Street station
+513870.4133,190592.896299999,56,Headstone Lane,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Headstone Lane station
+513068.1338,191321.7886,57,Hatch End,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Hatch End station
+511849.9984,193334.930500001,58,Carpenders Park,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Carpenders Park station
+511820.8704,195224.3046,59,Bushey,Not Accessible,London Overground,2023/05/23 15:36:26+00,Bushey station
+529395.5048,176197.938999999,60,Wandsworth Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Wandsworth Road station
+520175.1731,179271.503,61,South Acton,Fully Accessible,London Overground,2023/05/23 15:36:26+00,South Acton station
+524384.0024,179135.0024,62,Kensington Olympia,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kensington Olympia station
+527096.4154,175577.748400001,63,Clapham Junction,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Clapham Junction station
+529833.4787,175711.440099999,64,Clapham High Street,Not Accessible,London Overground,2023/05/23 15:36:26+00,Clapham High Street station
+526280.0036,176711.995999999,65,Imperial Wharf,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Imperial Wharf station
+521914.965,182952.452400001,66,Willesden Junction,Not Accessible,London Overground,2023/05/23 15:36:26+00,Willesden Junction station
+525511.9959,184725.1393,67,West Hampstead,Not Accessible,London Overground,2023/05/23 15:36:26+00,West Hampstead station
+529754.7949,186636.892999999,68,Upper Holloway,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Upper Holloway station
+526454.9968,184069.9998,69,South Hampstead,Not Accessible,London Overground,2023/05/23 15:36:26+00,South Hampstead station
+524568.9968,183185.0031,70,Queens Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Queens Park station
+525541.9965,183633.004899999,71,Kilburn High Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kilburn High Road station
+528598.3086,184759.8595,72,Kentish Town West,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kentish Town West station
+523522.4258,183217.409700001,73,Kensal Rise,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Kensal Rise station
+523314.9972,182785.997300001,74,Kensal Green,Not Accessible,London Overground,2023/05/23 15:36:26+00,Kensal Green station
+520961.393,183354.8092,75,Harlesden,Not Accessible,London Overground,2023/05/23 15:36:26+00,Harlesden station
+527263.8706,185626.716800001,76,Hampstead Heath,Not Accessible,London Overground,2023/05/23 15:36:26+00,Hampstead Heath station
+528257.8422,185688.228499999,77,Gospel Oak,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Gospel Oak station
+526063.4729,185045.623199999,78,Finchley Road & Frognal,Not Accessible,London Overground,2023/05/23 15:36:26+00,Finchley Road & Frognal station
+529414.0008,182856.997,79,Euston,Not Accessible,London Overground,2023/05/23 15:36:26+00,Euston station
+529144.4256,184196.739,80,Camden Road,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Camden Road station
+524200.0516,183907.6019,81,Brondesbury Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Brondesbury Park station
+524751.9846,184447.417199999,82,Brondesbury,Not Accessible,London Overground,2023/05/23 15:36:26+00,Brondesbury station
+520648.5566,180269.5452,83,Acton Central,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Acton Central station
+532200.998,166180.250700001,84,West Croydon,Fully Accessible,London Overground,2023/05/23 15:36:26+00,West Croydon station
+534035.003,168222.9959,85,Norwood Junction,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Norwood Junction station
+534636.002,169965.997,86,Anerley,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Anerley station
+535359.0032,171622.003,87,Sydenham,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Sydenham station
+535047.0018,176841.9988,88,Queens Road Peckham,Not Accessible,London Overground,2023/05/23 15:36:26+00,Queens Road Peckham station
+534971.9965,170537.0035,89,Penge West,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Penge West station
+534113.1344,176265.354699999,90,Peckham Rye,Not Accessible,London Overground,2023/05/23 15:36:26+00,Peckham Rye station
+535947.9974,174217.0002,91,Honor Oak Park,Not Accessible,London Overground,2023/05/23 15:36:26+00,Honor Oak Park station
+535415.0036,172941.995100001,92,Forest Hill,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Forest Hill station
+532799.7781,176071.288000001,93,Denmark Hill,Not Accessible,London Overground,2023/05/23 15:36:26+00,Denmark Hill station
+534146.0756,170537.974199999,94,Crystal Palace,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Crystal Palace station
+536416.0035,175764.997,95,Brockley,Partially Accessible,London Overground,2023/05/23 15:36:26+00,Brockley station
+535447.983,179495.569499999,96,Canada Water,Not Accessible,London Overground,2023/05/23 15:36:26+00,Canada Water station
+537024.3452,188812.5206,97,Walthamstow Queens Road,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Walthamstow Queens Road station
+538488.4202,184406.9748,98,Stratford,Not Accessible,London Overground,2023/05/23 15:36:26+00,Stratford station
+533704.5897,188602.906300001,99,South Tottenham,Not Accessible,London Overground,2023/05/23 15:36:26+00,South Tottenham station
+539288.7227,186891.5287,100,Leytonstone High Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Leytonstone High Road station
+538230.2854,187494.022399999,101,Leyton Midland Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Leyton Midland Road station
+535799.12,184946.330800001,102,Homerton,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Homerton station
+531524.0435,184710.067600001,103,Highbury & Islington,Not Accessible,London Overground,2023/05/23 15:36:26+00,Highbury & Islington station
+531912.9964,188206.9956,104,Harringay Green Lanes,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Harringay Green Lanes station
+537096.8222,184575.0834,105,Hackney Wick,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Hackney Wick station
+534814.7147,184917.678300001,106,Hackney Central,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Hackney Central station
+533516.0375,185006.074999999,107,Dalston Kingsland,Not Accessible,London Overground,2023/05/23 15:36:26+00,Dalston Kingsland station
+530642.0037,187555.0022,108,Crouch Hill,Not Accessible,London Overground,2023/05/23 15:36:26+00,Crouch Hill station
+530857.0019,184439.0041,109,Caledonian Road & Barnsbury,Fully Accessible,London Overground,2023/05/23 15:36:26+00,Caledonian Road & Barnsbury station
+535779.7454,189346.9109,110,Blackhorse Road,Not Accessible,London Overground,2023/05/23 15:36:26+00,Blackhorse Road station
+546901.0979,182161.0087,509,Barking Riverside,Fully Accessible,London Overground,2023/05/23 15:36:40+00,Barking Riverside station
+537262.8616,188968.1501,510,Walthamstow Central,Fully Accessible,London Overground,2023/05/23 15:36:41+00,Walthamstow Central station

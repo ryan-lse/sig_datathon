@@ -1,0 +1,274 @@
+﻿X,Y,OBJECTID,NAME,LINES,ATCOCODE,MODES,ACCESSIBILITY,NIGHT_TUBE,NETWORK,DATASET_LAST_UPDATED,FULL_NAME
+532108.3512,181274.1885,111,St. Paul's,Central,940GZZLUSPU,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,St. Paul's station
+536500.7831,182534.4935,112,Mile End,"District, Hammersmith & City, Central",940GZZLUMED,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Mile End station
+535043.5417,182718.410700001,113,Bethnal Green,Central,940GZZLUBLG,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Bethnal Green station
+538367.4374,186075.853599999,114,Leyton,Central,940GZZLULYN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Leyton station
+540156.7713,188804.041300001,115,Snaresbrook,Central,940GZZLUSNB,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Snaresbrook station
+539279.2763,187404.735400001,116,Leytonstone,Central,940GZZLULYS,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Leytonstone station
+540673.1526,188253.507300001,117,Wanstead,Central,940GZZLUWSD,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Wanstead station
+540535.7362,190062.669600001,118,South Woodford,Central,940GZZLUSWF,"bus, tube",Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,South Woodford station
+544920.2921,188384.718599999,119,Newbury Park,Central,940GZZLUNBP,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Newbury Park station
+544798.7557,189493.9487,120,Barkingside,Central,940GZZLUBKE,"tube, bus",Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Barkingside station
+544935.5979,190594.5734,121,Fairlop,Central,940GZZLUFLP,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Fairlop station
+540949.981,191740.0184,122,Woodford,Central,940GZZLUWOF,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Woodford station
+541589.7031,192894.9639,123,Roding Valley,Central,940GZZLURVY,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Roding Valley station
+543795.2009,193021.039000001,124,Chigwell,Central,940GZZLUCWL,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Chigwell station
+526659.2098,181314.446900001,125,Paddington,"Hammersmith & City, District, Circle, Bakerloo",940GZZLUPAC,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Paddington station
+540003.2462,183297.1438,126,Plaistow,"District, Hammersmith & City",940GZZLUPLW,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Plaistow station
+541254.2061,183793.485200001,127,Upton Park,"District, Hammersmith & City",940GZZLUUPK,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Upton Park station
+542463.3563,184275.4352,128,East Ham,"District, Hammersmith & City",940GZZLUEHM,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,East Ham station
+510266.398,185851.599300001,129,Ruislip Gardens,Central,940GZZLURSG,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Ruislip Gardens station
+511097.3834,185434.104699999,130,South Ruislip,Central,940GZZLUSRP,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,South Ruislip station
+513213.3316,184523.897600001,131,Northolt,Central,940GZZLUNHT,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Northolt station
+508378.6627,186795.997400001,132,West Ruislip,Central,940GZZLUWRP,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,West Ruislip station
+545845.6808,184254.344900001,133,Upney,District,940GZZLUUPY,"tube, bus",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Upney station
+523873.7006,187934.037,134,Brent Cross,Northern,940GZZLUBTX,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Brent Cross station
+521318.6301,189961.520300001,135,Colindale,Northern,940GZZLUCND,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Colindale station
+520325.5892,190759.991599999,136,Burnt Oak,Northern,940GZZLUBTK,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Burnt Oak station
+524045.7492,191450.480699999,137,Mill Hill East,Northern,940GZZLUMHL,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Mill Hill East station
+525255.0926,187480.2837,138,Golders Green,Northern,940GZZLUGGN,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Golders Green station
+525278.0259,190668.344000001,139,Finchley Central,Northern,940GZZLUFYC,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Finchley Central station
+515411.8716,185542.0623,140,Sudbury Hill,Piccadilly,940GZZLUSUH,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Sudbury Hill station
+516874.9001,184890.216,141,Sudbury Town,Piccadilly,940GZZLUSUT,"tube, bus",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Sudbury Town station
+517574.6349,179353.532600001,142,South Ealing,Piccadilly,940GZZLUSEA,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,South Ealing station
+519141.6075,182236.241800001,143,Park Royal,Piccadilly,940GZZLUPKR,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Park Royal station
+517996.164,183795.164000001,144,Alperton,Piccadilly,940GZZLUALP,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Alperton station
+528213.2383,179816.724099999,145,Hyde Park Corner,Piccadilly,940GZZLUHPC,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hyde Park Corner station
+527709.677,179635.9859,146,Knightsbridge,Piccadilly,940GZZLUKNB,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Knightsbridge station
+529980.4296,180824.482000001,147,Leicester Square,"Piccadilly, Northern",940GZZLULSQ,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Leicester Square station
+530250.6062,181025.0034,148,Covent Garden,Piccadilly,940GZZLUCGN,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Covent Garden station
+530229.0927,182127.7234,149,Russell Square,Piccadilly,940GZZLURSQ,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Russell Square station
+530907.4434,185449.7238,150,Holloway Road,Piccadilly,940GZZLUHWY,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Holloway Road station
+531305.0253,186112.096899999,151,Arsenal,Piccadilly,940GZZLUASL,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Arsenal station
+529355.1742,192497.914799999,152,Arnos Grove,Piccadilly,940GZZLUASG,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Arnos Grove station
+529675.8503,194264.9911,153,Southgate,Piccadilly,940GZZLUSGT,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Southgate station
+528140.5216,196370.205600001,154,Cockfosters,Piccadilly,940GZZLUCKS,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Cockfosters station
+529390.306,195935.214400001,155,Oakwood,Piccadilly,910GENFCOAK,"bus, national-rail, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Oakwood station
+532047.6613,187481.789999999,156,Manor House,Piccadilly,940GZZLUMRH,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Manor House station
+530958.661,180802.829600001,157,Temple,"District, Circle",940GZZLUTMP,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Temple station
+531693.8776,180893.0855,158,Blackfriars,"District, Circle",940GZZLUBKF,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Blackfriars station
+532354.1684,180931.563200001,159,Mansion House,"District, Circle",940GZZLUMSH,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Mansion House station
+532611.4757,180900.064999999,160,Cannon Street,"District, Circle",940GZZLUCST,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Cannon Street station
+533579.4477,180755.3849,161,Tower Hill,"District, Circle",940GZZLUTWH,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Tower Hill station
+533613.1509,181262.295499999,162,Aldgate,"Metropolitan, Circle",940GZZLUALD,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Aldgate station
+533093.853,181566.9186,163,Liverpool Street,"Metropolitan, Central, Circle, Hammersmith & City",940GZZLULVT,tube,Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Liverpool Street station
+532667.8252,181668.244999999,164,Moorgate,"Metropolitan, Northern, Circle, Hammersmith & City",940GZZLUMGT,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Moorgate station
+532004.2025,181856.329700001,165,Barbican,"Metropolitan, Circle, Hammersmith & City",940GZZLUBBN,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Barbican station
+531559.9989,181873.9267,166,Farringdon,"Metropolitan, Circle, Hammersmith & City",940GZZLUFCN,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Farringdon station
+530174.7976,182874.774700001,167,King's Cross St. Pancras,"Metropolitan, Northern, Piccadilly, Circle, Victoria, Hammersmith & City",940GZZLUKSX,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,King's Cross St. Pancras station
+529416.5999,182393.381999999,168,Euston Square,"Metropolitan, Circle, Hammersmith & City",940GZZLUESQ,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Euston Square station
+527954.6729,182063.567500001,169,Baker Street,"Metropolitan, Bakerloo, Circle, Jubilee, Hammersmith & City",940GZZLUBST,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Baker Street station
+527220.0675,181696.8814,170,Edgware Road (Circle Line),Circle,940GZZLUERC,"bus, tube",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Edgware Road (Circle Line) station
+526703.6907,181197.8431,171,Paddington,"Hammersmith & City, District, Circle, Bakerloo",940GZZLUPAC,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Paddington station
+525842.957,180822.646199999,172,Bayswater,"District, Circle",940GZZLUBWT,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Bayswater station
+525578.3546,179494.316500001,173,High Street Kensington,"District, Circle",940GZZLUHSK,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,High Street Kensington station
+526182.7589,178846.489499999,174,Gloucester Road,"District, Piccadilly, Circle",940GZZLUGTR,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Gloucester Road station
+526917.564,178820.259,175,South Kensington,"District, Piccadilly, Circle",940GZZLUSKS,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,South Kensington station
+520293.2801,178723.680199999,176,Chiswick Park,District,940GZZLUCWP,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Chiswick Park station
+525282.3792,172099.7465,177,Wimbledon Park,District,940GZZLUWIP,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Wimbledon Park station
+524381.7165,174869.93,178,East Putney,District,940GZZLUEPY,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,East Putney station
+524684.9763,178398.058900001,179,West Kensington,District,940GZZLUWKN,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,West Kensington station
+524984.5495,176646.7489,180,Parsons Green,District,940GZZLUPSG,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Parsons Green station
+523307.8235,180748.416200001,181,White City,Central,940GZZLUWCY,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,White City station
+523719.5706,179883.5582,182,Shepherd's Bush,Central,940GZZLUSBC,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Shepherd's Bush station
+524626.2477,180217.3517,183,Holland Park,Central,940GZZLUHPK,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Holland Park station
+547627.5438,184527.341,184,Becontree,District,940GZZLUBEC,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Becontree station
+528998.7715,179129.9345,185,Victoria,"District, Circle, Victoria",940GZZLUVIC,tube,Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Victoria station
+531052.3817,175428.6555,186,Brixton,Victoria,940GZZLUBXN,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Brixton station
+529670.6464,178332.5964,187,Pimlico,Victoria,940GZZLUPCO,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Pimlico station
+530336.7953,177973.004799999,188,Vauxhall,Victoria,940GZZLUVXL,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Vauxhall station
+529248.7448,182266.0339,189,Warren Street,"Northern, Victoria",940GZZLUWRR,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Warren Street station
+550293.9749,185030.270500001,190,Dagenham East,District,940GZZLUDGE,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Dagenham East station
+552542.0054,185716.105799999,191,Elm Park,District,940GZZLUEPK,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Elm Park station
+553944.498,186240.2941,192,Hornchurch,District,940GZZLUHCH,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Hornchurch station
+555088.411,186770.1083,193,Upminster Bridge,District,940GZZLUUPB,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Upminster Bridge station
+523197.0859,180064.2324,194,Shepherd's Bush Market,"Hammersmith & City, Circle",940GZZLUSBM,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Shepherd's Bush Market station
+523183.913,179607.8456,195,Goldhawk Road,"Hammersmith & City, Circle",940GZZLUGHK,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Goldhawk Road station
+523762.9916,180897.8333,196,Latimer Road,"Hammersmith & City, Circle",940GZZLULRD,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Latimer Road station
+524234.8749,181339.0615,197,Ladbroke Grove,"Hammersmith & City, Circle",940GZZLULAD,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Ladbroke Grove station
+525833.8943,181570.6391,198,Royal Oak,"Hammersmith & City, Circle",940GZZLURYO,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Royal Oak station
+525534.3012,178551.8071,199,Earl's Court,"District, Piccadilly",940GZZLUECT,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Earl's Court station
+524547.4749,183200.2402,200,Queen's Park,Bakerloo,940GZZLUQPS,tube,Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Queen's Park station
+525284.9146,180456.3574,201,Notting Hill Gate,"District, Central, Circle",940GZZLUNHG,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Notting Hill Gate station
+526710.5082,180773.3476,202,Lancaster Gate,Central,940GZZLULGT,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Lancaster Gate station
+527960.1312,181017.4747,203,Marble Arch,Central,940GZZLUMBA,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Marble Arch station
+528490.674,181117.635,204,Bond Street,"Central, Jubilee",940GZZLUBND,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Bond Street station
+516378.3501,183314.9891,205,Perivale,Central,940GZZLUPVL,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Perivale station
+514763.0955,183928.051899999,206,Greenford,Central,940GZZLUGFD,tube,Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Greenford station
+520828.4021,181956.9398,207,North Acton,Central,940GZZLUNAN,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,North Acton station
+524519.2741,175886.505999999,208,Putney Bridge,District,940GZZLUPYB,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Putney Bridge station
+532710.1551,181119.8978,209,Bank,"Waterloo & City, Northern, Central",940GZZLUBNK,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Bank station
+529046.6139,181236.3369,210,Oxford Circus,"Central, Bakerloo, Victoria",940GZZLUOXC,"tube, bus",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Oxford Circus station
+530512.0615,181525.070900001,211,Holborn,"Central, Piccadilly",940GZZLUHBN,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Holborn station
+531123.9465,181615.465500001,212,Chancery Lane,Central,940GZZLUCHL,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Chancery Lane station
+535456.6419,179467.0078,213,Canada Water,Jubilee,940GZZLUCWR,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Canada Water station
+534459.7378,179416.223200001,214,Bermondsey,Jubilee,940GZZLUBMY,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Bermondsey station
+537677.3398,180139.731799999,215,Canary Wharf,Jubilee,940GZZLUCYF,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Canary Wharf station
+539215.8219,179859.374399999,216,North Greenwich,Jubilee,940GZZLUNGW,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,North Greenwich station
+539428.3256,181377.274,217,Canning Town,Jubilee,940GZZLUCGT,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Canning Town station
+524583.2751,184644.8518,218,Kilburn,Jubilee,940GZZLUKBN,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Kilburn station
+525592.1984,184652.8993,219,West Hampstead,Jubilee,940GZZLUWHP,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,West Hampstead station
+526663.6914,184334.9639,220,Swiss Cottage,Jubilee,940GZZLUSWC,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Swiss Cottage station
+526220.4473,184716.2096,221,Finchley Road,"Metropolitan, Jubilee",940GZZLUFYR,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Finchley Road station
+526787.9528,170368.2575,222,Colliers Wood,Northern,940GZZLUCSD,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Colliers Wood station
+529363.5176,186721.2423,223,Archway,Northern,940GZZLUACY,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Archway station
+527433.7399,171443.250700001,224,Tooting Broadway,Northern,940GZZLUTBY,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Tooting Broadway station
+528047.2745,172373.6505,225,Tooting Bec,Northern,940GZZLUTBC,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Tooting Bec station
+528834.0334,174322.7074,226,Clapham South,Northern,940GZZLUCPS,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Clapham South station
+529504.8104,175338.249199999,227,Clapham Common,Northern,940GZZLUCPC,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Clapham Common station
+530038.9661,175743.4515,228,Clapham North,Northern,940GZZLUCPN,"tube, bus",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Clapham North station
+529537.2731,181836.5931,229,Goodge Street,Northern,940GZZLUGDG,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Goodge Street station
+529815.381,181382.496200001,230,Tottenham Court Road,"Central, Northern",940GZZLUTCR,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Tottenham Court Road station
+526372.6132,185761.4121,231,Hampstead,Northern,940GZZLUHTD,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hampstead station
+529191.6489,183397.127499999,232,Mornington Crescent,Northern,940GZZLUMTC,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Mornington Crescent station
+528202.4569,184390.607000001,233,Chalk Farm,Northern,940GZZLUCFM,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Chalk Farm station
+529009.0105,185127.159,234,Kentish Town,Northern,940GZZLUKSH,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Kentish Town station
+529148.7021,185859.620100001,235,Tufnell Park,Northern,940GZZLUTFP,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Tufnell Park station
+531170.2991,177564.9022,236,Oval,Northern,940GZZLUOVL,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Oval station
+531598.8041,178299.556299999,237,Kennington,Northern,940GZZLUKNG,"tube, bus",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Kennington station
+521720.9991,181197.768999999,238,East Acton,Central,940GZZLUEAN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,East Acton station
+499633.5338,197564.355,239,Chalfont & Latimer,Metropolitan,940GZZLUCAL,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Chalfont & Latimer station
+502580.7743,196094.9067,240,Chorleywood,Metropolitan,940GZZLUCYD,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Chorleywood station
+523373.9519,180519.177100001,241,Wood Lane,"Hammersmith & City, Circle",940GZZLUWLA,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Wood Lane station
+531583.269,184873.934800001,242,Highbury & Islington,Victoria,940GZZLUHAI,tube,Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Highbury & Islington station
+535760.6278,189370.2981,243,Blackhorse Road,Victoria,940GZZLUBLR,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Blackhorse Road station
+534484.4517,189470.7161,244,Tottenham Hale,Victoria,940GZZLUTMH,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Tottenham Hale station
+525903.0798,180593.604,245,Queensway,Central,940GZZLUQWY,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Queensway station
+541777.5666,193891.179,246,Buckhurst Hill,Central,940GZZLUBKH,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Buckhurst Hill station
+542318.8891,195612.3879,247,Loughton,Central,940GZZLULGN,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Loughton station
+545079.8923,191498.1822,248,Hainault,Central,940GZZLUHLT,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hainault station
+544967.3103,192558.691299999,249,Grange Hill,Central,940GZZLUGGH,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Grange Hill station
+544272.9229,196121.782099999,250,Debden,Central,940GZZLUDBN,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Debden station
+546209.4306,201538.4,251,Epping,Central,940GZZLUEPG,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Epping station
+541834.4862,188358.000499999,252,Redbridge,Central,940GZZLURBG,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Redbridge station
+522189.8506,185144.020099999,253,Dollis Hill,Jubilee,940GZZLUDOH,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Dollis Hill station
+519358.6236,188712.7984,254,Kingsbury,Jubilee,940GZZLUKBY,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Kingsbury station
+518808.7824,189763.2019,255,Queensbury,Jubilee,940GZZLUQBY,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Queensbury station
+517336.1598,187060.2129,256,South Kenton,Bakerloo,940GZZLUSKT,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,South Kenton station
+515443.4908,189445.8062,257,Harrow & Wealdstone,Bakerloo,940GZZLUHAW,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Harrow & Wealdstone station
+519615.5138,184218.2261,258,Stonebridge Park,Bakerloo,940GZZLUSGP,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Stonebridge Park station
+530419.3254,180395.871400001,259,Embankment,"District, Bakerloo, Northern, Circle",940GZZLUEMB,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Embankment station
+514320.5446,186361.227299999,260,South Harrow,Piccadilly,940GZZLUSHH,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,South Harrow station
+523257.1398,182789.7245,261,Kensal Green,Bakerloo,940GZZLUKSL,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Kensal Green station
+520874.9265,183414.186899999,262,Harlesden,Bakerloo,940GZZLUHSN,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Harlesden station
+518182.8112,185084.709899999,263,Wembley Central,Bakerloo,940GZZLUWYC,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Wembley Central station
+517667.5472,186197.873500001,264,North Wembley,Bakerloo,940GZZLUNWY,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,North Wembley station
+526459.0141,181526.643200001,265,Paddington (H&C Line),Hammersmith & City,940GZZLUPAH,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Paddington (H&C Line) station
+519196.0695,176731.8028,266,Kew Gardens,District,940GZZLUKWG,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Kew Gardens station
+519845.2545,178387.583799999,267,Gunnersbury,District,940GZZLUGBY,tube,Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Gunnersbury station
+529612.6446,180665.529899999,268,Piccadilly Circus,"Bakerloo, Piccadilly",940GZZLUPCC,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Piccadilly Circus station
+530057.6992,180378.381899999,269,Charing Cross,"Bakerloo, Northern",940GZZLUCHX,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Charing Cross station
+531908.9646,179141.8869,270,Elephant & Castle,"Northern, Bakerloo",940GZZLUEAC,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Elephant & Castle station
+531133.5815,179456.1932,271,Lambeth North,Bakerloo,940GZZLULBN,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Lambeth North station
+527046.7044,181758.9463,272,Edgware Road (Bakerloo),Bakerloo,940GZZLUERB,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Edgware Road (Bakerloo) station
+525940.2151,182761.773700001,273,Maida Vale,Bakerloo,940GZZLUMVL,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Maida Vale station
+525357.7486,183328.0363,274,Kilburn Park,Bakerloo,940GZZLUKPK,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Kilburn Park station
+527458.7894,181957.287599999,275,Marylebone,Bakerloo,940GZZLUMYB,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Marylebone station
+528699.2958,182113.1305,276,Regent's Park,Bakerloo,940GZZLURGP,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Regent's Park station
+528090.7172,178654.7576,277,Sloane Square,"District, Circle",940GZZLUSSQ,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Sloane Square station
+522571.1867,178722.460000001,278,Ravenscourt Park,District,940GZZLURVP,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Ravenscourt Park station
+523460.9489,178502.7234,279,Hammersmith (Dist&Picc Line),"District, Piccadilly",940GZZLUHSD,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hammersmith (Dist&Picc Line) station
+527353.7983,185088.897399999,280,Belsize Park,Northern,940GZZLUBZP,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Belsize Park station
+531014.9221,190428.396500001,281,Wood Green,Piccadilly,940GZZLUWOG,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Wood Green station
+529984.4864,191469.272600001,282,Bounds Green,Piccadilly,940GZZLUBDS,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Bounds Green station
+530195.6727,179668.226399999,283,Westminster,"District, Circle, Jubilee",940GZZLUWSM,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Westminster station
+524341.6907,179162.423900001,284,Kensington (Olympia),District,940GZZLUKOY,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Kensington (Olympia) station
+529498.32,182668.2502,285,Euston,"Northern, Victoria",940GZZLUEUS,tube,Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Euston station
+530968.1802,179961.9154,286,Waterloo,"Waterloo & City, Bakerloo, Northern, Jubilee",940GZZLUWLO,tube,Partially Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Waterloo station
+556146.114,186868.406300001,287,Upminster,District,940GZZLUUPM,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Upminster station
+539130.9809,182944.644300001,288,West Ham,"District, Hammersmith & City, Jubilee",940GZZLUWHM,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,West Ham station
+537176.4746,188994.332599999,289,Walthamstow Central,Victoria,940GZZLUWWL,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Walthamstow Central station
+517989.3481,180932.526699999,290,Ealing Broadway,"District, Central",940GZZLUEBY,tube,Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Ealing Broadway station
+519477.6064,179592.1471,291,Acton Town,"District, Piccadilly",940GZZLUACT,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Acton Town station
+518895.9685,180345.996200001,292,Ealing Common,"District, Piccadilly",940GZZLUECM,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Ealing Common station
+529007.2306,180294.834799999,293,Green Park,"Piccadilly, Victoria, Jubilee",940GZZLUGPK,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Green Park station
+531329.8862,186775.332800001,294,Finsbury Park,"Piccadilly, Victoria",940GZZLUFPK,tube,Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Finsbury Park station
+530460.3355,176432.887399999,295,Stockwell,"Northern, Victoria",940GZZLUSKW,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Stockwell station
+525669.7872,168602.371300001,296,Morden,Northern,940GZZLUMDN,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Morden station
+523325.1097,178697.986300001,297,Hammersmith (H&C Line),Hammersmith & City,940GZZLUHSC,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Hammersmith (H&C Line) station
+509608.3222,175362.561799999,298,Hatton Cross,Piccadilly,940GZZLUHNX,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hatton Cross station
+512207.7403,176196.9816,299,Hounslow West,Piccadilly,940GZZLUHWT,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hounslow West station
+513567.6962,175971.364700001,300,Hounslow Central,Piccadilly,940GZZLUHWC,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hounslow Central station
+514254.5504,176202.929199999,301,Hounslow East,Piccadilly,940GZZLUHWE,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hounslow East station
+514520.2731,177096.8334,302,Osterley,Piccadilly,940GZZLUOSY,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Osterley station
+517196.8059,179206.2903,303,Northfields,Piccadilly,940GZZLUNFD,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Northfields station
+524045.7583,178327.6646,304,Barons Court,"District, Piccadilly",940GZZLUBSC,tube,Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Barons Court station
+525454.6092,177301.7324,305,Fulham Broadway,District,940GZZLUFBY,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Fulham Broadway station
+525380.8439,178024.490700001,306,West Brompton,District,940GZZLUWBN,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,West Brompton station
+521859.3453,178788.8474,307,Stamford Brook,District,940GZZLUSFB,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Stamford Brook station
+521265.8017,178779.0811,308,Turnham Green,"District, Piccadilly",940GZZLUTNG,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Turnham Green station
+533936.1921,181374.788000001,309,Aldgate East,"Hammersmith & City, District",940GZZLUADE,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Aldgate East station
+534644.6261,181850.3379,310,Whitechapel,"District, Hammersmith & City",940GZZLUWPL,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Whitechapel station
+537089.8973,182735.951300001,311,Bow Road,"District, Hammersmith & City",940GZZLUBWR,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Bow Road station
+519315.8795,186388.4845,312,Wembley Park,"Metropolitan, Jubilee",940GZZLUWYP,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Wembley Park station
+521342.3348,185397.9068,313,Neasden,Jubilee,940GZZLUNDN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Neasden station
+526120.3494,193989.2184,314,Totteridge & Whetstone,Northern,940GZZLUTAW,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Totteridge & Whetstone station
+508081.9464,174430.162599999,315,Heathrow Terminal 4,Piccadilly,940GZZLUHR4,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Heathrow Terminal 4 station
+519372.862,181295.9254,316,West Acton,Central,940GZZLUWTA,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,West Acton station
+538530.0487,184394.6448,317,Stratford,"Central, Jubilee",940GZZLUSTD,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Stratford station
+505661.0034,184161.1754,318,Uxbridge,"Metropolitan, Piccadilly",940GZZLUUXB,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Uxbridge station
+507602.2269,185034.942299999,319,Hillingdon,"Metropolitan, Piccadilly",940GZZLUHGD,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Hillingdon station
+508092.3561,185937.6131,320,Ickenham,"Metropolitan, Piccadilly",940GZZLUICK,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Ickenham station
+509473.5706,187004.4778,321,Ruislip,"Metropolitan, Piccadilly",940GZZLURSP,"bus, tube",Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Ruislip station
+510159.7912,187262.366699999,322,Ruislip Manor,"Metropolitan, Piccadilly",940GZZLURSM,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Ruislip Manor station
+510307.602,190238.042400001,323,Northwood Hills,Metropolitan,940GZZLUNWH,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Northwood Hills station
+514199.9396,188029.3693,324,West Harrow,Metropolitan,940GZZLUWHW,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,West Harrow station
+512952.7879,187515.078199999,325,Rayners Lane,"Metropolitan, Piccadilly",940GZZLURYL,"bus, tube",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Rayners Lane station
+513541.1687,188613.229499999,326,North Harrow,Metropolitan,940GZZLUNHA,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,North Harrow station
+512236.1384,189460.7521,327,Pinner,Metropolitan,940GZZLUPNR,"tube, bus",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Pinner station
+515346.2006,188038.3989,328,Harrow-on-the-Hill,Metropolitan,940GZZLUHOH,tube,Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Harrow-on-the-Hill station
+516643.3006,187963.523499999,329,Northwick Park,Metropolitan,940GZZLUNKP,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Northwick Park station
+517562.6021,192572.9608,330,Stanmore,Jubilee,940GZZLUSTM,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Stanmore station
+518186.8967,191252.07,331,Canons Park,Jubilee,940GZZLUCPK,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Canons Park station
+526735.2854,183390.8717,332,St. John's Wood,Jubilee,940GZZLUSJW,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,St. John's Wood station
+531592.3412,180073.990499999,333,Southwark,Jubilee,940GZZLUSWK,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Southwark station
+532683.0478,180188.852299999,334,London Bridge,"Northern, Jubilee",940GZZLULNB,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,London Bridge station
+524800.3804,170683.6656,335,Wimbledon,District,940GZZLUWIM,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Wimbledon station
+525546.1518,191626.9482,336,West Finchley,Northern,940GZZLUWFN,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,West Finchley station
+529024.8784,177247.2655,379,Battersea Power Station,Northern,,tube,,Yes,London Underground,2021/11/29 00:00:00+00,Battersea Power Station station
+529989.2567,177345.628799999,380,Nine Elms,Northern,,tube,,Yes,London Underground,2021/11/29 00:00:00+00,Nine Elms station
+519550.4974,191940.4673,384,Edgware,Northern,940GZZLUEGW,"bus, tube",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Edgware station
+518828.0459,181227.755999999,385,North Ealing,Piccadilly,940GZZLUNEN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,North Ealing station
+530558.3633,184969.7784,386,Caledonian Road,Piccadilly,940GZZLUCAR,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Caledonian Road station
+532911.9191,180824.076099999,387,Monument,"District, Circle",940GZZLUMMT,"tube, bus",Partially Accessible - Interchange Only,No,London Underground,2021/11/29 00:00:00+00,Monument station
+528837.973,182179.857899999,388,Great Portland Street,"Metropolitan, Circle, Hammersmith & City",940GZZLUGPS,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Great Portland Street station
+524726.397,173312.818499999,389,Southfields,District,940GZZLUSFS,"bus, tube",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Southfields station
+549022.5413,184709.7413,390,Dagenham Heathway,District,940GZZLUDGY,"tube, bus",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Dagenham Heathway station
+507585.6702,175839.6403,391,Heathrow Terminals 1-2-3,Piccadilly,940GZZLUHRC,tube,Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Heathrow Terminals 1-2-3 station
+524901.4238,181755.9263,392,Westbourne Park,"Hammersmith & City, Circle",940GZZLUWSP,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Westbourne Park station
+518527.3157,182634.1785,393,Hanger Lane,Central,940GZZLUHGR,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Hanger Lane station
+543273.6779,188430.207599999,394,Gants Hill,Central,940GZZLUGTH,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Gants Hill station
+538049.5634,182523.513599999,395,Bromley-by-Bow,"District, Hammersmith & City",940GZZLUBBB,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Bromley-by-Bow station
+518077.1529,175161.4717,396,Richmond,District,940GZZLURMD,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Richmond station
+526112.4036,182039.408,397,Warwick Avenue,Bakerloo,940GZZLUWKA,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Warwick Avenue station
+529646.6061,179498.074100001,398,St. James's Park,"District, Circle",940GZZLUSJP,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,St. James's Park station
+531512.729,189637.9518,399,Turnpike Lane,Piccadilly,940GZZLUTPN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Turnpike Lane station
+544358.8052,184382.179,400,Barking,"District, Hammersmith & City",940GZZLUBKG,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Barking station
+525736.3947,169989.4476,433,South Wimbledon,Northern,940GZZLUSWN,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,South Wimbledon station
+516333.5188,178693.009,434,Boston Manor,Piccadilly,940GZZLUBOS,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Boston Manor station
+535621.3116,182135.557,435,Stepney Green,"District, Hammersmith & City",940GZZLUSGN,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Stepney Green station
+525030.1427,196180.328199999,436,High Barnet,Northern,940GZZLUHBT,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,High Barnet station
+511153.3473,187621.8123,437,Eastcote,"Metropolitan, Piccadilly",940GZZLUEAE,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Eastcote station
+496371.5781,198181.3279,438,Amersham,Metropolitan,940GZZLUAMS,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Amersham station
+523328.566,184883.4222,439,Willesden Green,Jubilee,940GZZLUWIG,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Willesden Green station
+528480.3274,173244.480799999,440,Balham,Northern,940GZZLUBLM,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Balham station
+528910.2525,183893.5725,441,Camden Town,Northern,940GZZLUCTN,"bus, tube",Partially Accessible - Interchange Only,Yes,London Underground,2021/11/29 00:00:00+00,Camden Town station
+505109.3841,175923.8204,442,Heathrow Terminal 5,Piccadilly,940GZZLUHR5,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Heathrow Terminal 5 station
+521858.4876,182959.8201,470,Willesden Junction,Bakerloo,940GZZLUWJN,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Willesden Junction station
+527221.696,189183.6545,471,East Finchley,Northern,940GZZLUEFY,"tube, bus",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,East Finchley station
+528534.7964,188180.791099999,472,Highgate,Northern,940GZZLUHGT,"bus, tube",Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Highgate station
+496079.3711,201633.0847,473,Chesham,Metropolitan,940GZZLUCSM,tube,Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Chesham station
+505715.6061,194601.2017,474,Rickmansworth,Metropolitan,940GZZLURKW,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Rickmansworth station
+508606.4789,193502.849199999,475,Moor Park,Metropolitan,940GZZLUMPK,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Moor Park station
+509229.7103,191418.7435,476,Northwood,Metropolitan,940GZZLUNOW,"bus, tube",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Northwood station
+507909.4599,195402.8332,477,Croxley,Metropolitan,940GZZLUCXY,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Croxley station
+509569.47,196595.9617,478,Watford,Metropolitan,940GZZLUWAF,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Watford station
+532439.9633,179751.461100001,479,Borough,Northern,940GZZLUBOR,"bus, tube",Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Borough station
+532764.4507,182418.811100001,480,Old Street,Northern,940GZZLUODS,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Old Street station
+531560.5615,183099.9257,481,Angel,Northern,940GZZLUAGL,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Angel station
+522985.7318,188635.9596,482,Hendon Central,Northern,940GZZLUHCL,"tube, bus",Fully Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Hendon Central station
+533642.8986,188930.9134,483,Seven Sisters,Victoria,940GZZLUSVS,tube,Not Accessible,Yes,London Underground,2021/11/29 00:00:00+00,Seven Sisters station
+545541.5127,199100.828500001,484,Theydon Bois,Central,940GZZLUTHB,tube,Partially Accessible,No,London Underground,2021/11/29 00:00:00+00,Theydon Bois station
+516727.9918,188314.4716,485,Kenton,Bakerloo,940GZZLUKEN,tube,Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Kenton station
+525718.4454,192588.1262,486,Woodside Park,Northern,940GZZLUWOP,"tube, bus",Fully Accessible,No,London Underground,2021/11/29 00:00:00+00,Woodside Park station
+518249.3308,187281.8291,487,Preston Road,Metropolitan,940GZZLUPRD,"tube, bus",Not Accessible,No,London Underground,2021/11/29 00:00:00+00,Preston Road station
