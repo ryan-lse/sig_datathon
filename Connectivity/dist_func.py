@@ -3,28 +3,93 @@ import math
 import geopandas as gpd
 import pandas as pd
 from scipy.spatial import cKDTree
+import requests
+import os
+import json
+
+def load_tfl(url, df_name):
+
+    batch_size = 2000
+    offset = 0
+
+    all_features = []
+    res = []
+    while True:
+        params = {
+        "where": "1=1",
+        "outFields": "*",
+        "returnGeometry": True,
+        "outSR": 27700,  
+        "f": "geojson",
+        "resultOffset": offset,
+        "resultRecordCount": batch_size
+        }
+        response = requests.get(url, params=params).json()
+        res.extend([{k:v} for k,v in response.items()])
+        #print(response)
+        all_features.extend(response['features'])
+
+        if not response['features']:
+            break
+
+        offset += batch_size
+
+    print("Total records:", len(all_features))
+
+
+    geojson_data = {
+    "type": "FeatureCollection",
+    "features": all_features
+    }
+
+    output_dir = "data"
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, f"{df_name}.geojson")
+
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(geojson_data, f, ensure_ascii=False, indent=2)
+
+    print(f"Exported to {output_path}")
+
+
+
+
+
+
+
+
+
+
+
 
 def nearest_neighbor(centroids, stations, k=3, correction_factor=1.3):
+
+
     if isinstance(centroids, gpd.GeoDataFrame) and 'geometry' in centroids.columns:
         centroid_coords = np.column_stack((centroids.geometry.x, centroids.geometry.y))
-        result = pd.DataFrame({'lon':centroids.geometry.x, 'lat':centroids.geometry.y})
+        result = pd.DataFrame({'lat':centroids['lat'], 'lon':centroids['lon']})
     else:
-        centroid_coords = np.column_stack((centroids['lon'], centroids['lat']))
-        result = pd.DataFrame({'lon':centroids['lon'], 'lat':centroids['lat']})
+        print(f"input centroids is not in geopandas format")
 
     if isinstance(stations, gpd.GeoDataFrame) and 'geometry' in stations.columns:
         station_coords = np.column_stack((stations.geometry.x, stations.geometry.y))
     else:
-        station_coords = np.column_stack((stations['lon'], stations['lat']))
+        print(f"input stations is not in geopandas format")
+
     print(f"Total {len(centroid_coords)} grid points")
     print(f"Mapping {len(stations)} stations")
+
+
     tree = cKDTree(station_coords)
     dist, idx = tree.query(centroid_coords, k=k)
+
 
     # Make the results a dataframe
     for i in range(k):
         result[f"nearest_station_{i+1}"] = stations.iloc[idx[:,i]]['NAME'].values
         result[f"nearest_station_{i+1}_dist"] = dist[:,i] * correction_factor
+        result[f"nearest_station_{i+1}_lat"] = stations.iloc[idx[:,i]]['lat'].values
+        result[f"nearest_station_{i+1}_long"] = stations.iloc[idx[:,i]]['lon'].values
 
     if k >= 1:
         dist_cols = [f"nearest_station_{i+1}_dist" for i in range(k)]
@@ -79,6 +144,7 @@ def find_line_diversity(nearest_df, stations, k=3, station_col='NAME', lines_col
     lc_min = lc.min()
     lc_max = lc.max()
     if lc_max > lc_min:
+        # Higher line diversity means lower penalty.
         result['line_unique_count_norm'] = 1 - ((lc - lc_min) / (lc_max - lc_min))
     else:
         result['line_unique_count_norm'] = 0.0
@@ -98,11 +164,9 @@ def combine_connectivity_score(result_df, alpha=0.5, beta=0.5):
 
     result = result_df.copy()
 
-    # Higher line diversity means lower penalty.
-    result["diversity_penalty"] = 1 - result["line_unique_count_norm"]
     result["connectivity_score"] = (
         alpha * result["harmonic_mean_adj_dist_norm"]
-        + beta * result["diversity_penalty"]
+        + beta * result["line_unique_count_norm"]
     )
 
     return result

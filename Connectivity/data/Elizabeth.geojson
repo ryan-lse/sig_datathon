@@ -1,0 +1,825 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 381,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540409.114,
+          185311.626399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 381,
+        "NAME": "Forest Gate",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Forest Gate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 382,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          543515.8596,
+          186487.352399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 382,
+        "NAME": "Ilford",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Ilford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 383,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          545384.0476,
+          187089.397500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 383,
+        "NAME": "Seven Kings",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Seven Kings station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 401,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          546470.5894,
+          187325.4033
+        ]
+      },
+      "properties": {
+        "OBJECTID": 401,
+        "NAME": "Goodmayes",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Goodmayes station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 402,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          551323.363,
+          188458.677100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 402,
+        "NAME": "Romford",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Romford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 403,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          552957.6082,
+          189327.987400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 403,
+        "NAME": "Gidea Park",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Gidea Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 404,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540872.7513,
+          180939.057800001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 404,
+        "NAME": "Custom House",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Custom House station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 405,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539193.9472,
+          184915.748600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 405,
+        "NAME": "Maryland",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Maryland station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 406,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          547314.9825,
+          179034.7598
+        ]
+      },
+      "properties": {
+        "OBJECTID": 406,
+        "NAME": "Abbey Wood",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Abbey Wood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 407,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          543951.5249,
+          179004.5274
+        ]
+      },
+      "properties": {
+        "OBJECTID": 407,
+        "NAME": "Woolwich",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Woolwich station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 408,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532851.5216,
+          181597.8254
+        ]
+      },
+      "properties": {
+        "OBJECTID": 408,
+        "NAME": "Liverpool Street",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Liverpool Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 409,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          534734.8138,
+          181931.0482
+        ]
+      },
+      "properties": {
+        "OBJECTID": 409,
+        "NAME": "Whitechapel",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Whitechapel station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 410,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          538511.1599,
+          184391.982999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 410,
+        "NAME": "Stratford",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Stratford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 411,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526538.0067,
+          181269.878900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 411,
+        "NAME": "Paddington",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Paddington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 412,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529657.874,
+          181252.761
+        ]
+      },
+      "properties": {
+        "OBJECTID": 412,
+        "NAME": "Tottenham Court Road",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Tottenham Court Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 413,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528725.735,
+          181036.7629
+        ]
+      },
+      "properties": {
+        "OBJECTID": 413,
+        "NAME": "Bond Street",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Bond Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 414,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531762.9134,
+          181817.2675
+        ]
+      },
+      "properties": {
+        "OBJECTID": 414,
+        "NAME": "Farringdon",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Farringdon station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 415,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          554888.3146,
+          190653.3051
+        ]
+      },
+      "properties": {
+        "OBJECTID": 415,
+        "NAME": "Harold Wood",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Harold Wood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 416,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          559401.7384,
+          193032.175899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 416,
+        "NAME": "Brentwood",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Brentwood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 417,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          501336.6079,
+          179763.8399
+        ]
+      },
+      "properties": {
+        "OBJECTID": 417,
+        "NAME": "Langley",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Langley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 418,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          497851.1075,
+          180181.1819
+        ]
+      },
+      "properties": {
+        "OBJECTID": 418,
+        "NAME": "Slough",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Slough station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 419,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          493953.6767,
+          181375.304400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 419,
+        "NAME": "Burnham",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Burnham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 420,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          491596.3554,
+          181302.7585
+        ]
+      },
+      "properties": {
+        "OBJECTID": 420,
+        "NAME": "Taplow",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Taplow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 421,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          503774.5112,
+          179908.3325
+        ]
+      },
+      "properties": {
+        "OBJECTID": 421,
+        "NAME": "Iver",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Iver station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 422,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          488713.4349,
+          180713.2754
+        ]
+      },
+      "properties": {
+        "OBJECTID": 422,
+        "NAME": "Maidenhead",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Maidenhead station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 423,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          508056.5597,
+          174503.7634
+        ]
+      },
+      "properties": {
+        "OBJECTID": 423,
+        "NAME": "Heathrow Terminal 4",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Heathrow Terminal 4 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 424,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          506153.978,
+          180102.356799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 424,
+        "NAME": "West Drayton",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "West Drayton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 425,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          512729.6424,
+          179827.4793
+        ]
+      },
+      "properties": {
+        "OBJECTID": 425,
+        "NAME": "Southall",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Southall station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 426,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          515408.8897,
+          180514.715700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 426,
+        "NAME": "Hanwell",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Hanwell station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 427,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          520300.2785,
+          181217.9925
+        ]
+      },
+      "properties": {
+        "OBJECTID": 427,
+        "NAME": "Acton Main Line",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Acton Main Line station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 428,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          507493.2047,
+          175905.6667
+        ]
+      },
+      "properties": {
+        "OBJECTID": 428,
+        "NAME": "Heathrow Terminals 1-2-3",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Heathrow Terminals 1-2-3 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 429,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517952.9321,
+          180902.9362
+        ]
+      },
+      "properties": {
+        "OBJECTID": 429,
+        "NAME": "Ealing Broadway",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Ealing Broadway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 430,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          479053.0293,
+          175777.6775
+        ]
+      },
+      "properties": {
+        "OBJECTID": 430,
+        "NAME": "Twyford",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Twyford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 431,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          471456.4223,
+          173854.3511
+        ]
+      },
+      "properties": {
+        "OBJECTID": 431,
+        "NAME": "Reading",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Reading station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 432,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          505109.3841,
+          175923.8204
+        ]
+      },
+      "properties": {
+        "OBJECTID": 432,
+        "NAME": "Heathrow Terminal 5",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Heathrow Terminal 5 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 503,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          541906.0795,
+          185683.2403
+        ]
+      },
+      "properties": {
+        "OBJECTID": 503,
+        "NAME": "Manor Park",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Manor Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 504,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          547602.7066,
+          187606.6767
+        ]
+      },
+      "properties": {
+        "OBJECTID": 504,
+        "NAME": "Chadwell Heath",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Chadwell Heath station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 505,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          537706.7181,
+          180438.080600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 505,
+        "NAME": "Canary Wharf",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Canary Wharf station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 506,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          561346.241,
+          194989.327
+        ]
+      },
+      "properties": {
+        "OBJECTID": 506,
+        "NAME": "Shenfield",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Shenfield station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 507,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          509804.823,
+          179417.5529
+        ]
+      },
+      "properties": {
+        "OBJECTID": 507,
+        "NAME": "Hayes & Harlington",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "Hayes & Harlington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 508,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516594.9246,
+          180729.661900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 508,
+        "NAME": "West Ealing",
+        "LINES": "Elizabeth Line",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NETWORK": "TfL Rail",
+        "DATASET_LAST_UPDATED": 1653523200000,
+        "FULL_NAME": "West Ealing station"
+      }
+    }
+  ]
+}

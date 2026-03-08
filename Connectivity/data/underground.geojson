@@ -1,0 +1,6284 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532108.3512,
+          181274.1885
+        ]
+      },
+      "properties": {
+        "OBJECTID": 111,
+        "NAME": "St. Paul's",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUSPU",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "St. Paul's station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          536500.7831,
+          182534.4935
+        ]
+      },
+      "properties": {
+        "OBJECTID": 112,
+        "NAME": "Mile End",
+        "LINES": "District, Hammersmith & City, Central",
+        "ATCOCODE": "940GZZLUMED",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Mile End station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          535043.5417,
+          182718.410700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 113,
+        "NAME": "Bethnal Green",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUBLG",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bethnal Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          538367.4374,
+          186075.853599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 114,
+        "NAME": "Leyton",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLULYN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Leyton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540156.7713,
+          188804.041300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "NAME": "Snaresbrook",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUSNB",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Snaresbrook station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539279.2763,
+          187404.735400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 116,
+        "NAME": "Leytonstone",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLULYS",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Leytonstone station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540673.1526,
+          188253.507300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 117,
+        "NAME": "Wanstead",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUWSD",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wanstead station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540535.7362,
+          190062.669600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 118,
+        "NAME": "South Woodford",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUSWF",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Woodford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544920.2921,
+          188384.718599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 119,
+        "NAME": "Newbury Park",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUNBP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Newbury Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544798.7557,
+          189493.9487
+        ]
+      },
+      "properties": {
+        "OBJECTID": 120,
+        "NAME": "Barkingside",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUBKE",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Barkingside station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544935.5979,
+          190594.5734
+        ]
+      },
+      "properties": {
+        "OBJECTID": 121,
+        "NAME": "Fairlop",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUFLP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Fairlop station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540949.981,
+          191740.0184
+        ]
+      },
+      "properties": {
+        "OBJECTID": 122,
+        "NAME": "Woodford",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUWOF",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Woodford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          541589.7031,
+          192894.9639
+        ]
+      },
+      "properties": {
+        "OBJECTID": 123,
+        "NAME": "Roding Valley",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLURVY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Roding Valley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          543795.2009,
+          193021.039000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 124,
+        "NAME": "Chigwell",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUCWL",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chigwell station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526659.2098,
+          181314.446900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 125,
+        "NAME": "Paddington",
+        "LINES": "Hammersmith & City, District, Circle, Bakerloo",
+        "ATCOCODE": "940GZZLUPAC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Paddington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          540003.2462,
+          183297.1438
+        ]
+      },
+      "properties": {
+        "OBJECTID": 126,
+        "NAME": "Plaistow",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUPLW",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Plaistow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          541254.2061,
+          183793.485200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 127,
+        "NAME": "Upton Park",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUUPK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Upton Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          542463.3563,
+          184275.4352
+        ]
+      },
+      "properties": {
+        "OBJECTID": 128,
+        "NAME": "East Ham",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUEHM",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "East Ham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          510266.398,
+          185851.599300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 129,
+        "NAME": "Ruislip Gardens",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLURSG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ruislip Gardens station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          511097.3834,
+          185434.104699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 130,
+        "NAME": "South Ruislip",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUSRP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Ruislip station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          513213.3316,
+          184523.897600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 131,
+        "NAME": "Northolt",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUNHT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Northolt station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          508378.6627,
+          186795.997400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 132,
+        "NAME": "West Ruislip",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUWRP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Ruislip station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          545845.6808,
+          184254.344900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 133,
+        "NAME": "Upney",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUUPY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Upney station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523873.7006,
+          187934.037
+        ]
+      },
+      "properties": {
+        "OBJECTID": 134,
+        "NAME": "Brent Cross",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUBTX",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Brent Cross station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521318.6301,
+          189961.520300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 135,
+        "NAME": "Colindale",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCND",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Colindale station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          520325.5892,
+          190759.991599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 136,
+        "NAME": "Burnt Oak",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUBTK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Burnt Oak station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524045.7492,
+          191450.480699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 137,
+        "NAME": "Mill Hill East",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUMHL",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Mill Hill East station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525255.0926,
+          187480.2837
+        ]
+      },
+      "properties": {
+        "OBJECTID": 138,
+        "NAME": "Golders Green",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUGGN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Golders Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525278.0259,
+          190668.344000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 139,
+        "NAME": "Finchley Central",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUFYC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Finchley Central station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          515411.8716,
+          185542.0623
+        ]
+      },
+      "properties": {
+        "OBJECTID": 140,
+        "NAME": "Sudbury Hill",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUSUH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Sudbury Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516874.9001,
+          184890.216
+        ]
+      },
+      "properties": {
+        "OBJECTID": 141,
+        "NAME": "Sudbury Town",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUSUT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Sudbury Town station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517574.6349,
+          179353.532600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 142,
+        "NAME": "South Ealing",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUSEA",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Ealing station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519141.6075,
+          182236.241800001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 143,
+        "NAME": "Park Royal",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUPKR",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Park Royal station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517996.164,
+          183795.164000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 144,
+        "NAME": "Alperton",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUALP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Alperton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528213.2383,
+          179816.724099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 145,
+        "NAME": "Hyde Park Corner",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHPC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hyde Park Corner station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527709.677,
+          179635.9859
+        ]
+      },
+      "properties": {
+        "OBJECTID": 146,
+        "NAME": "Knightsbridge",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUKNB",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Knightsbridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529980.4296,
+          180824.482000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 147,
+        "NAME": "Leicester Square",
+        "LINES": "Piccadilly, Northern",
+        "ATCOCODE": "940GZZLULSQ",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Leicester Square station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530250.6062,
+          181025.0034
+        ]
+      },
+      "properties": {
+        "OBJECTID": 148,
+        "NAME": "Covent Garden",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUCGN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Covent Garden station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530229.0927,
+          182127.7234
+        ]
+      },
+      "properties": {
+        "OBJECTID": 149,
+        "NAME": "Russell Square",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLURSQ",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Russell Square station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530907.4434,
+          185449.7238
+        ]
+      },
+      "properties": {
+        "OBJECTID": 150,
+        "NAME": "Holloway Road",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHWY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Holloway Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531305.0253,
+          186112.096899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 151,
+        "NAME": "Arsenal",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUASL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Arsenal station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529355.1742,
+          192497.914799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 152,
+        "NAME": "Arnos Grove",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUASG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Arnos Grove station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529675.8503,
+          194264.9911
+        ]
+      },
+      "properties": {
+        "OBJECTID": 153,
+        "NAME": "Southgate",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUSGT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Southgate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528140.5216,
+          196370.205600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 154,
+        "NAME": "Cockfosters",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUCKS",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Cockfosters station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529390.306,
+          195935.214400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 155,
+        "NAME": "Oakwood",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "910GENFCOAK",
+        "MODES": "bus, national-rail, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Oakwood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532047.6613,
+          187481.789999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 156,
+        "NAME": "Manor House",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUMRH",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Manor House station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530958.661,
+          180802.829600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 157,
+        "NAME": "Temple",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUTMP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Temple station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531693.8776,
+          180893.0855
+        ]
+      },
+      "properties": {
+        "OBJECTID": 158,
+        "NAME": "Blackfriars",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUBKF",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Blackfriars station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532354.1684,
+          180931.563200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 159,
+        "NAME": "Mansion House",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUMSH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Mansion House station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 160,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532611.4757,
+          180900.064999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 160,
+        "NAME": "Cannon Street",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUCST",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Cannon Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 161,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          533579.4477,
+          180755.3849
+        ]
+      },
+      "properties": {
+        "OBJECTID": 161,
+        "NAME": "Tower Hill",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUTWH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tower Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 162,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          533613.1509,
+          181262.295499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 162,
+        "NAME": "Aldgate",
+        "LINES": "Metropolitan, Circle",
+        "ATCOCODE": "940GZZLUALD",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Aldgate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 163,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          533093.853,
+          181566.9186
+        ]
+      },
+      "properties": {
+        "OBJECTID": 163,
+        "NAME": "Liverpool Street",
+        "LINES": "Metropolitan, Central, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLULVT",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Liverpool Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 164,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532667.8252,
+          181668.244999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 164,
+        "NAME": "Moorgate",
+        "LINES": "Metropolitan, Northern, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLUMGT",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Moorgate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 165,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532004.2025,
+          181856.329700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 165,
+        "NAME": "Barbican",
+        "LINES": "Metropolitan, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLUBBN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Barbican station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 166,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531559.9989,
+          181873.9267
+        ]
+      },
+      "properties": {
+        "OBJECTID": 166,
+        "NAME": "Farringdon",
+        "LINES": "Metropolitan, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLUFCN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Farringdon station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 167,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530174.7976,
+          182874.774700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 167,
+        "NAME": "King's Cross St. Pancras",
+        "LINES": "Metropolitan, Northern, Piccadilly, Circle, Victoria, Hammersmith & City",
+        "ATCOCODE": "940GZZLUKSX",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "King's Cross St. Pancras station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 168,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529416.5999,
+          182393.381999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 168,
+        "NAME": "Euston Square",
+        "LINES": "Metropolitan, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLUESQ",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Euston Square station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 169,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527954.6729,
+          182063.567500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 169,
+        "NAME": "Baker Street",
+        "LINES": "Metropolitan, Bakerloo, Circle, Jubilee, Hammersmith & City",
+        "ATCOCODE": "940GZZLUBST",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Baker Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 170,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527220.0675,
+          181696.8814
+        ]
+      },
+      "properties": {
+        "OBJECTID": 170,
+        "NAME": "Edgware Road (Circle Line)",
+        "LINES": "Circle",
+        "ATCOCODE": "940GZZLUERC",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Edgware Road (Circle Line) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 171,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526703.6907,
+          181197.8431
+        ]
+      },
+      "properties": {
+        "OBJECTID": 171,
+        "NAME": "Paddington",
+        "LINES": "Hammersmith & City, District, Circle, Bakerloo",
+        "ATCOCODE": "940GZZLUPAC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Paddington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 172,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525842.957,
+          180822.646199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 172,
+        "NAME": "Bayswater",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUBWT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bayswater station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 173,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525578.3546,
+          179494.316500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 173,
+        "NAME": "High Street Kensington",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUHSK",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "High Street Kensington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 174,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526182.7589,
+          178846.489499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 174,
+        "NAME": "Gloucester Road",
+        "LINES": "District, Piccadilly, Circle",
+        "ATCOCODE": "940GZZLUGTR",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Gloucester Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 175,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526917.564,
+          178820.259
+        ]
+      },
+      "properties": {
+        "OBJECTID": 175,
+        "NAME": "South Kensington",
+        "LINES": "District, Piccadilly, Circle",
+        "ATCOCODE": "940GZZLUSKS",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Kensington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 176,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          520293.2801,
+          178723.680199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 176,
+        "NAME": "Chiswick Park",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUCWP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chiswick Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 177,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525282.3792,
+          172099.7465
+        ]
+      },
+      "properties": {
+        "OBJECTID": 177,
+        "NAME": "Wimbledon Park",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUWIP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wimbledon Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 178,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524381.7165,
+          174869.93
+        ]
+      },
+      "properties": {
+        "OBJECTID": 178,
+        "NAME": "East Putney",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUEPY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "East Putney station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 179,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524684.9763,
+          178398.058900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 179,
+        "NAME": "West Kensington",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUWKN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Kensington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 180,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524984.5495,
+          176646.7489
+        ]
+      },
+      "properties": {
+        "OBJECTID": 180,
+        "NAME": "Parsons Green",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUPSG",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Parsons Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 181,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523307.8235,
+          180748.416200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 181,
+        "NAME": "White City",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUWCY",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "White City station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 182,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523719.5706,
+          179883.5582
+        ]
+      },
+      "properties": {
+        "OBJECTID": 182,
+        "NAME": "Shepherd's Bush",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUSBC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Shepherd's Bush station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 183,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524626.2477,
+          180217.3517
+        ]
+      },
+      "properties": {
+        "OBJECTID": 183,
+        "NAME": "Holland Park",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUHPK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Holland Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 184,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          547627.5438,
+          184527.341
+        ]
+      },
+      "properties": {
+        "OBJECTID": 184,
+        "NAME": "Becontree",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUBEC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Becontree station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 185,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528998.7715,
+          179129.9345
+        ]
+      },
+      "properties": {
+        "OBJECTID": 185,
+        "NAME": "Victoria",
+        "LINES": "District, Circle, Victoria",
+        "ATCOCODE": "940GZZLUVIC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Victoria station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 186,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531052.3817,
+          175428.6555
+        ]
+      },
+      "properties": {
+        "OBJECTID": 186,
+        "NAME": "Brixton",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUBXN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Brixton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 187,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529670.6464,
+          178332.5964
+        ]
+      },
+      "properties": {
+        "OBJECTID": 187,
+        "NAME": "Pimlico",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUPCO",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Pimlico station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 188,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530336.7953,
+          177973.004799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 188,
+        "NAME": "Vauxhall",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUVXL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Vauxhall station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 189,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529248.7448,
+          182266.0339
+        ]
+      },
+      "properties": {
+        "OBJECTID": 189,
+        "NAME": "Warren Street",
+        "LINES": "Northern, Victoria",
+        "ATCOCODE": "940GZZLUWRR",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Warren Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 190,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          550293.9749,
+          185030.270500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 190,
+        "NAME": "Dagenham East",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUDGE",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Dagenham East station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 191,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          552542.0054,
+          185716.105799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 191,
+        "NAME": "Elm Park",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUEPK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Elm Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 192,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          553944.498,
+          186240.2941
+        ]
+      },
+      "properties": {
+        "OBJECTID": 192,
+        "NAME": "Hornchurch",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUHCH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hornchurch station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 193,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          555088.411,
+          186770.1083
+        ]
+      },
+      "properties": {
+        "OBJECTID": 193,
+        "NAME": "Upminster Bridge",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUUPB",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Upminster Bridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 194,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523197.0859,
+          180064.2324
+        ]
+      },
+      "properties": {
+        "OBJECTID": 194,
+        "NAME": "Shepherd's Bush Market",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLUSBM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Shepherd's Bush Market station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 195,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523183.913,
+          179607.8456
+        ]
+      },
+      "properties": {
+        "OBJECTID": 195,
+        "NAME": "Goldhawk Road",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLUGHK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Goldhawk Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 196,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523762.9916,
+          180897.8333
+        ]
+      },
+      "properties": {
+        "OBJECTID": 196,
+        "NAME": "Latimer Road",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLULRD",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Latimer Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 197,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524234.8749,
+          181339.0615
+        ]
+      },
+      "properties": {
+        "OBJECTID": 197,
+        "NAME": "Ladbroke Grove",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLULAD",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ladbroke Grove station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 198,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525833.8943,
+          181570.6391
+        ]
+      },
+      "properties": {
+        "OBJECTID": 198,
+        "NAME": "Royal Oak",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLURYO",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Royal Oak station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 199,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525534.3012,
+          178551.8071
+        ]
+      },
+      "properties": {
+        "OBJECTID": 199,
+        "NAME": "Earl's Court",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUECT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Earl's Court station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 200,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524547.4749,
+          183200.2402
+        ]
+      },
+      "properties": {
+        "OBJECTID": 200,
+        "NAME": "Queen's Park",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUQPS",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Queen's Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 201,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525284.9146,
+          180456.3574
+        ]
+      },
+      "properties": {
+        "OBJECTID": 201,
+        "NAME": "Notting Hill Gate",
+        "LINES": "District, Central, Circle",
+        "ATCOCODE": "940GZZLUNHG",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Notting Hill Gate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 202,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526710.5082,
+          180773.3476
+        ]
+      },
+      "properties": {
+        "OBJECTID": 202,
+        "NAME": "Lancaster Gate",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLULGT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Lancaster Gate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 203,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527960.1312,
+          181017.4747
+        ]
+      },
+      "properties": {
+        "OBJECTID": 203,
+        "NAME": "Marble Arch",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUMBA",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Marble Arch station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 204,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528490.674,
+          181117.635
+        ]
+      },
+      "properties": {
+        "OBJECTID": 204,
+        "NAME": "Bond Street",
+        "LINES": "Central, Jubilee",
+        "ATCOCODE": "940GZZLUBND",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bond Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 205,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516378.3501,
+          183314.9891
+        ]
+      },
+      "properties": {
+        "OBJECTID": 205,
+        "NAME": "Perivale",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUPVL",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Perivale station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 206,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          514763.0955,
+          183928.051899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 206,
+        "NAME": "Greenford",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUGFD",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Greenford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 207,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          520828.4021,
+          181956.9398
+        ]
+      },
+      "properties": {
+        "OBJECTID": 207,
+        "NAME": "North Acton",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUNAN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "North Acton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 208,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524519.2741,
+          175886.505999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 208,
+        "NAME": "Putney Bridge",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUPYB",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Putney Bridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 209,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532710.1551,
+          181119.8978
+        ]
+      },
+      "properties": {
+        "OBJECTID": 209,
+        "NAME": "Bank",
+        "LINES": "Waterloo & City, Northern, Central",
+        "ATCOCODE": "940GZZLUBNK",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bank station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 210,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529046.6139,
+          181236.3369
+        ]
+      },
+      "properties": {
+        "OBJECTID": 210,
+        "NAME": "Oxford Circus",
+        "LINES": "Central, Bakerloo, Victoria",
+        "ATCOCODE": "940GZZLUOXC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Oxford Circus station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 211,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530512.0615,
+          181525.070900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 211,
+        "NAME": "Holborn",
+        "LINES": "Central, Piccadilly",
+        "ATCOCODE": "940GZZLUHBN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Holborn station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 212,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531123.9465,
+          181615.465500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 212,
+        "NAME": "Chancery Lane",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUCHL",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chancery Lane station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 213,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          535456.6419,
+          179467.0078
+        ]
+      },
+      "properties": {
+        "OBJECTID": 213,
+        "NAME": "Canada Water",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUCWR",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Canada Water station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 214,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          534459.7378,
+          179416.223200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 214,
+        "NAME": "Bermondsey",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUBMY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bermondsey station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 215,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          537677.3398,
+          180139.731799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 215,
+        "NAME": "Canary Wharf",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUCYF",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Canary Wharf station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 216,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539215.8219,
+          179859.374399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 216,
+        "NAME": "North Greenwich",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUNGW",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "North Greenwich station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 217,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539428.3256,
+          181377.274
+        ]
+      },
+      "properties": {
+        "OBJECTID": 217,
+        "NAME": "Canning Town",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUCGT",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Canning Town station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 218,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524583.2751,
+          184644.8518
+        ]
+      },
+      "properties": {
+        "OBJECTID": 218,
+        "NAME": "Kilburn",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUKBN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kilburn station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 219,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525592.1984,
+          184652.8993
+        ]
+      },
+      "properties": {
+        "OBJECTID": 219,
+        "NAME": "West Hampstead",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUWHP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Hampstead station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 220,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526663.6914,
+          184334.9639
+        ]
+      },
+      "properties": {
+        "OBJECTID": 220,
+        "NAME": "Swiss Cottage",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUSWC",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Swiss Cottage station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 221,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526220.4473,
+          184716.2096
+        ]
+      },
+      "properties": {
+        "OBJECTID": 221,
+        "NAME": "Finchley Road",
+        "LINES": "Metropolitan, Jubilee",
+        "ATCOCODE": "940GZZLUFYR",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Finchley Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 222,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526787.9528,
+          170368.2575
+        ]
+      },
+      "properties": {
+        "OBJECTID": 222,
+        "NAME": "Colliers Wood",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCSD",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Colliers Wood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 223,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529363.5176,
+          186721.2423
+        ]
+      },
+      "properties": {
+        "OBJECTID": 223,
+        "NAME": "Archway",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUACY",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Archway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 224,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527433.7399,
+          171443.250700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 224,
+        "NAME": "Tooting Broadway",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUTBY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tooting Broadway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 225,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528047.2745,
+          172373.6505
+        ]
+      },
+      "properties": {
+        "OBJECTID": 225,
+        "NAME": "Tooting Bec",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUTBC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tooting Bec station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 226,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528834.0334,
+          174322.7074
+        ]
+      },
+      "properties": {
+        "OBJECTID": 226,
+        "NAME": "Clapham South",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCPS",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Clapham South station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 227,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529504.8104,
+          175338.249199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 227,
+        "NAME": "Clapham Common",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCPC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Clapham Common station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 228,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530038.9661,
+          175743.4515
+        ]
+      },
+      "properties": {
+        "OBJECTID": 228,
+        "NAME": "Clapham North",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCPN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Clapham North station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 229,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529537.2731,
+          181836.5931
+        ]
+      },
+      "properties": {
+        "OBJECTID": 229,
+        "NAME": "Goodge Street",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUGDG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Goodge Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 230,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529815.381,
+          181382.496200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 230,
+        "NAME": "Tottenham Court Road",
+        "LINES": "Central, Northern",
+        "ATCOCODE": "940GZZLUTCR",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tottenham Court Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 231,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526372.6132,
+          185761.4121
+        ]
+      },
+      "properties": {
+        "OBJECTID": 231,
+        "NAME": "Hampstead",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUHTD",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hampstead station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 232,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529191.6489,
+          183397.127499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 232,
+        "NAME": "Mornington Crescent",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUMTC",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Mornington Crescent station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 233,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528202.4569,
+          184390.607000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 233,
+        "NAME": "Chalk Farm",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCFM",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chalk Farm station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 234,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529009.0105,
+          185127.159
+        ]
+      },
+      "properties": {
+        "OBJECTID": 234,
+        "NAME": "Kentish Town",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUKSH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kentish Town station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 235,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529148.7021,
+          185859.620100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 235,
+        "NAME": "Tufnell Park",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUTFP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tufnell Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 236,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531170.2991,
+          177564.9022
+        ]
+      },
+      "properties": {
+        "OBJECTID": 236,
+        "NAME": "Oval",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUOVL",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Oval station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 237,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531598.8041,
+          178299.556299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 237,
+        "NAME": "Kennington",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUKNG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kennington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 238,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521720.9991,
+          181197.768999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 238,
+        "NAME": "East Acton",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUEAN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "East Acton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 239,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          499633.5338,
+          197564.355
+        ]
+      },
+      "properties": {
+        "OBJECTID": 239,
+        "NAME": "Chalfont & Latimer",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUCAL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chalfont & Latimer station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 240,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          502580.7743,
+          196094.9067
+        ]
+      },
+      "properties": {
+        "OBJECTID": 240,
+        "NAME": "Chorleywood",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUCYD",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chorleywood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 241,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523373.9519,
+          180519.177100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 241,
+        "NAME": "Wood Lane",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLUWLA",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wood Lane station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 242,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531583.269,
+          184873.934800001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 242,
+        "NAME": "Highbury & Islington",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUHAI",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Highbury & Islington station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 243,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          535760.6278,
+          189370.2981
+        ]
+      },
+      "properties": {
+        "OBJECTID": 243,
+        "NAME": "Blackhorse Road",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUBLR",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Blackhorse Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 244,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          534484.4517,
+          189470.7161
+        ]
+      },
+      "properties": {
+        "OBJECTID": 244,
+        "NAME": "Tottenham Hale",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUTMH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Tottenham Hale station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 245,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525903.0798,
+          180593.604
+        ]
+      },
+      "properties": {
+        "OBJECTID": 245,
+        "NAME": "Queensway",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUQWY",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Queensway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 246,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          541777.5666,
+          193891.179
+        ]
+      },
+      "properties": {
+        "OBJECTID": 246,
+        "NAME": "Buckhurst Hill",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUBKH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Buckhurst Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 247,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          542318.8891,
+          195612.3879
+        ]
+      },
+      "properties": {
+        "OBJECTID": 247,
+        "NAME": "Loughton",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLULGN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Loughton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 248,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          545079.8923,
+          191498.1822
+        ]
+      },
+      "properties": {
+        "OBJECTID": 248,
+        "NAME": "Hainault",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUHLT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hainault station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 249,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544967.3103,
+          192558.691299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 249,
+        "NAME": "Grange Hill",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUGGH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Grange Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 250,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544272.9229,
+          196121.782099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 250,
+        "NAME": "Debden",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUDBN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Debden station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 251,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          546209.4306,
+          201538.4
+        ]
+      },
+      "properties": {
+        "OBJECTID": 251,
+        "NAME": "Epping",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUEPG",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Epping station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 252,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          541834.4862,
+          188358.000499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 252,
+        "NAME": "Redbridge",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLURBG",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Redbridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 253,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          522189.8506,
+          185144.020099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 253,
+        "NAME": "Dollis Hill",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUDOH",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Dollis Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 254,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519358.6236,
+          188712.7984
+        ]
+      },
+      "properties": {
+        "OBJECTID": 254,
+        "NAME": "Kingsbury",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUKBY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kingsbury station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 255,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518808.7824,
+          189763.2019
+        ]
+      },
+      "properties": {
+        "OBJECTID": 255,
+        "NAME": "Queensbury",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUQBY",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Queensbury station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 256,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517336.1598,
+          187060.2129
+        ]
+      },
+      "properties": {
+        "OBJECTID": 256,
+        "NAME": "South Kenton",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUSKT",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Kenton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 257,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          515443.4908,
+          189445.8062
+        ]
+      },
+      "properties": {
+        "OBJECTID": 257,
+        "NAME": "Harrow & Wealdstone",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUHAW",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Harrow & Wealdstone station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 258,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519615.5138,
+          184218.2261
+        ]
+      },
+      "properties": {
+        "OBJECTID": 258,
+        "NAME": "Stonebridge Park",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUSGP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stonebridge Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 259,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530419.3254,
+          180395.871400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 259,
+        "NAME": "Embankment",
+        "LINES": "District, Bakerloo, Northern, Circle",
+        "ATCOCODE": "940GZZLUEMB",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Embankment station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 260,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          514320.5446,
+          186361.227299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 260,
+        "NAME": "South Harrow",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUSHH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Harrow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 261,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523257.1398,
+          182789.7245
+        ]
+      },
+      "properties": {
+        "OBJECTID": 261,
+        "NAME": "Kensal Green",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUKSL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kensal Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 262,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          520874.9265,
+          183414.186899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 262,
+        "NAME": "Harlesden",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUHSN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Harlesden station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 263,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518182.8112,
+          185084.709899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 263,
+        "NAME": "Wembley Central",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUWYC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wembley Central station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 264,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517667.5472,
+          186197.873500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 264,
+        "NAME": "North Wembley",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUNWY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "North Wembley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 265,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526459.0141,
+          181526.643200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 265,
+        "NAME": "Paddington (H&C Line)",
+        "LINES": "Hammersmith & City",
+        "ATCOCODE": "940GZZLUPAH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Paddington (H&C Line) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 266,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519196.0695,
+          176731.8028
+        ]
+      },
+      "properties": {
+        "OBJECTID": 266,
+        "NAME": "Kew Gardens",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUKWG",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kew Gardens station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 267,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519845.2545,
+          178387.583799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 267,
+        "NAME": "Gunnersbury",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUGBY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Gunnersbury station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 268,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529612.6446,
+          180665.529899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 268,
+        "NAME": "Piccadilly Circus",
+        "LINES": "Bakerloo, Piccadilly",
+        "ATCOCODE": "940GZZLUPCC",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Piccadilly Circus station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 269,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530057.6992,
+          180378.381899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 269,
+        "NAME": "Charing Cross",
+        "LINES": "Bakerloo, Northern",
+        "ATCOCODE": "940GZZLUCHX",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Charing Cross station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 270,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531908.9646,
+          179141.8869
+        ]
+      },
+      "properties": {
+        "OBJECTID": 270,
+        "NAME": "Elephant & Castle",
+        "LINES": "Northern, Bakerloo",
+        "ATCOCODE": "940GZZLUEAC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Elephant & Castle station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 271,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531133.5815,
+          179456.1932
+        ]
+      },
+      "properties": {
+        "OBJECTID": 271,
+        "NAME": "Lambeth North",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLULBN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Lambeth North station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 272,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527046.7044,
+          181758.9463
+        ]
+      },
+      "properties": {
+        "OBJECTID": 272,
+        "NAME": "Edgware Road (Bakerloo)",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUERB",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Edgware Road (Bakerloo) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 273,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525940.2151,
+          182761.773700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 273,
+        "NAME": "Maida Vale",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUMVL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Maida Vale station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 274,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525357.7486,
+          183328.0363
+        ]
+      },
+      "properties": {
+        "OBJECTID": 274,
+        "NAME": "Kilburn Park",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUKPK",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kilburn Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 275,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527458.7894,
+          181957.287599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 275,
+        "NAME": "Marylebone",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUMYB",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Marylebone station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 276,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528699.2958,
+          182113.1305
+        ]
+      },
+      "properties": {
+        "OBJECTID": 276,
+        "NAME": "Regent's Park",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLURGP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Regent's Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 277,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528090.7172,
+          178654.7576
+        ]
+      },
+      "properties": {
+        "OBJECTID": 277,
+        "NAME": "Sloane Square",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUSSQ",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Sloane Square station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 278,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          522571.1867,
+          178722.460000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 278,
+        "NAME": "Ravenscourt Park",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLURVP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ravenscourt Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 279,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523460.9489,
+          178502.7234
+        ]
+      },
+      "properties": {
+        "OBJECTID": 279,
+        "NAME": "Hammersmith (Dist&Picc Line)",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUHSD",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hammersmith (Dist&Picc Line) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 280,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527353.7983,
+          185088.897399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 280,
+        "NAME": "Belsize Park",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUBZP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Belsize Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 281,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531014.9221,
+          190428.396500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 281,
+        "NAME": "Wood Green",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUWOG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wood Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 282,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529984.4864,
+          191469.272600001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 282,
+        "NAME": "Bounds Green",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUBDS",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bounds Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 283,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530195.6727,
+          179668.226399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 283,
+        "NAME": "Westminster",
+        "LINES": "District, Circle, Jubilee",
+        "ATCOCODE": "940GZZLUWSM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Westminster station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 284,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524341.6907,
+          179162.423900001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 284,
+        "NAME": "Kensington (Olympia)",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUKOY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kensington (Olympia) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 285,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529498.32,
+          182668.2502
+        ]
+      },
+      "properties": {
+        "OBJECTID": 285,
+        "NAME": "Euston",
+        "LINES": "Northern, Victoria",
+        "ATCOCODE": "940GZZLUEUS",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Euston station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 286,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530968.1802,
+          179961.9154
+        ]
+      },
+      "properties": {
+        "OBJECTID": 286,
+        "NAME": "Waterloo",
+        "LINES": "Waterloo & City, Bakerloo, Northern, Jubilee",
+        "ATCOCODE": "940GZZLUWLO",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Waterloo station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 287,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          556146.114,
+          186868.406300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 287,
+        "NAME": "Upminster",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUUPM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Upminster station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 288,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          539130.9809,
+          182944.644300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 288,
+        "NAME": "West Ham",
+        "LINES": "District, Hammersmith & City, Jubilee",
+        "ATCOCODE": "940GZZLUWHM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Ham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 289,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          537176.4746,
+          188994.332599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 289,
+        "NAME": "Walthamstow Central",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUWWL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Walthamstow Central station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 290,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517989.3481,
+          180932.526699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 290,
+        "NAME": "Ealing Broadway",
+        "LINES": "District, Central",
+        "ATCOCODE": "940GZZLUEBY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ealing Broadway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 291,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519477.6064,
+          179592.1471
+        ]
+      },
+      "properties": {
+        "OBJECTID": 291,
+        "NAME": "Acton Town",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUACT",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Acton Town station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 292,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518895.9685,
+          180345.996200001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 292,
+        "NAME": "Ealing Common",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUECM",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ealing Common station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 293,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529007.2306,
+          180294.834799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 293,
+        "NAME": "Green Park",
+        "LINES": "Piccadilly, Victoria, Jubilee",
+        "ATCOCODE": "940GZZLUGPK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Green Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 294,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531329.8862,
+          186775.332800001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 294,
+        "NAME": "Finsbury Park",
+        "LINES": "Piccadilly, Victoria",
+        "ATCOCODE": "940GZZLUFPK",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Finsbury Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 295,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530460.3355,
+          176432.887399999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 295,
+        "NAME": "Stockwell",
+        "LINES": "Northern, Victoria",
+        "ATCOCODE": "940GZZLUSKW",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stockwell station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 296,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525669.7872,
+          168602.371300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 296,
+        "NAME": "Morden",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUMDN",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Morden station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 297,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523325.1097,
+          178697.986300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 297,
+        "NAME": "Hammersmith (H&C Line)",
+        "LINES": "Hammersmith & City",
+        "ATCOCODE": "940GZZLUHSC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hammersmith (H&C Line) station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 298,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          509608.3222,
+          175362.561799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 298,
+        "NAME": "Hatton Cross",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHNX",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hatton Cross station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 299,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          512207.7403,
+          176196.9816
+        ]
+      },
+      "properties": {
+        "OBJECTID": 299,
+        "NAME": "Hounslow West",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHWT",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hounslow West station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 300,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          513567.6962,
+          175971.364700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 300,
+        "NAME": "Hounslow Central",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHWC",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hounslow Central station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 301,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          514254.5504,
+          176202.929199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 301,
+        "NAME": "Hounslow East",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHWE",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hounslow East station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 302,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          514520.2731,
+          177096.8334
+        ]
+      },
+      "properties": {
+        "OBJECTID": 302,
+        "NAME": "Osterley",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUOSY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Osterley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 303,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517196.8059,
+          179206.2903
+        ]
+      },
+      "properties": {
+        "OBJECTID": 303,
+        "NAME": "Northfields",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUNFD",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Northfields station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 304,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524045.7583,
+          178327.6646
+        ]
+      },
+      "properties": {
+        "OBJECTID": 304,
+        "NAME": "Barons Court",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUBSC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Barons Court station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 305,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525454.6092,
+          177301.7324
+        ]
+      },
+      "properties": {
+        "OBJECTID": 305,
+        "NAME": "Fulham Broadway",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUFBY",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Fulham Broadway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 306,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525380.8439,
+          178024.490700001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 306,
+        "NAME": "West Brompton",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUWBN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Brompton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 307,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521859.3453,
+          178788.8474
+        ]
+      },
+      "properties": {
+        "OBJECTID": 307,
+        "NAME": "Stamford Brook",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUSFB",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stamford Brook station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 308,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521265.8017,
+          178779.0811
+        ]
+      },
+      "properties": {
+        "OBJECTID": 308,
+        "NAME": "Turnham Green",
+        "LINES": "District, Piccadilly",
+        "ATCOCODE": "940GZZLUTNG",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Turnham Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 309,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          533936.1921,
+          181374.788000001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 309,
+        "NAME": "Aldgate East",
+        "LINES": "Hammersmith & City, District",
+        "ATCOCODE": "940GZZLUADE",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Aldgate East station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 310,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          534644.6261,
+          181850.3379
+        ]
+      },
+      "properties": {
+        "OBJECTID": 310,
+        "NAME": "Whitechapel",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUWPL",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Whitechapel station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 311,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          537089.8973,
+          182735.951300001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 311,
+        "NAME": "Bow Road",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUBWR",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bow Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 312,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519315.8795,
+          186388.4845
+        ]
+      },
+      "properties": {
+        "OBJECTID": 312,
+        "NAME": "Wembley Park",
+        "LINES": "Metropolitan, Jubilee",
+        "ATCOCODE": "940GZZLUWYP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wembley Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 313,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521342.3348,
+          185397.9068
+        ]
+      },
+      "properties": {
+        "OBJECTID": 313,
+        "NAME": "Neasden",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUNDN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Neasden station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 314,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526120.3494,
+          193989.2184
+        ]
+      },
+      "properties": {
+        "OBJECTID": 314,
+        "NAME": "Totteridge & Whetstone",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUTAW",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Totteridge & Whetstone station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 315,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          508081.9464,
+          174430.162599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 315,
+        "NAME": "Heathrow Terminal 4",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHR4",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Heathrow Terminal 4 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 316,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519372.862,
+          181295.9254
+        ]
+      },
+      "properties": {
+        "OBJECTID": 316,
+        "NAME": "West Acton",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUWTA",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Acton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 317,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          538530.0487,
+          184394.6448
+        ]
+      },
+      "properties": {
+        "OBJECTID": 317,
+        "NAME": "Stratford",
+        "LINES": "Central, Jubilee",
+        "ATCOCODE": "940GZZLUSTD",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stratford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 318,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          505661.0034,
+          184161.1754
+        ]
+      },
+      "properties": {
+        "OBJECTID": 318,
+        "NAME": "Uxbridge",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLUUXB",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Uxbridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 319,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          507602.2269,
+          185034.942299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 319,
+        "NAME": "Hillingdon",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLUHGD",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hillingdon station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 320,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          508092.3561,
+          185937.6131
+        ]
+      },
+      "properties": {
+        "OBJECTID": 320,
+        "NAME": "Ickenham",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLUICK",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ickenham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 321,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          509473.5706,
+          187004.4778
+        ]
+      },
+      "properties": {
+        "OBJECTID": 321,
+        "NAME": "Ruislip",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLURSP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ruislip station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 322,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          510159.7912,
+          187262.366699999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 322,
+        "NAME": "Ruislip Manor",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLURSM",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Ruislip Manor station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 323,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          510307.602,
+          190238.042400001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 323,
+        "NAME": "Northwood Hills",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUNWH",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Northwood Hills station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 324,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          514199.9396,
+          188029.3693
+        ]
+      },
+      "properties": {
+        "OBJECTID": 324,
+        "NAME": "West Harrow",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUWHW",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Harrow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 325,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          512952.7879,
+          187515.078199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 325,
+        "NAME": "Rayners Lane",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLURYL",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Rayners Lane station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 326,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          513541.1687,
+          188613.229499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 326,
+        "NAME": "North Harrow",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUNHA",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "North Harrow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 327,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          512236.1384,
+          189460.7521
+        ]
+      },
+      "properties": {
+        "OBJECTID": 327,
+        "NAME": "Pinner",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUPNR",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Pinner station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 328,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          515346.2006,
+          188038.3989
+        ]
+      },
+      "properties": {
+        "OBJECTID": 328,
+        "NAME": "Harrow-on-the-Hill",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUHOH",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Harrow-on-the-Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 329,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516643.3006,
+          187963.523499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 329,
+        "NAME": "Northwick Park",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUNKP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Northwick Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 330,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          517562.6021,
+          192572.9608
+        ]
+      },
+      "properties": {
+        "OBJECTID": 330,
+        "NAME": "Stanmore",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUSTM",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stanmore station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 331,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518186.8967,
+          191252.07
+        ]
+      },
+      "properties": {
+        "OBJECTID": 331,
+        "NAME": "Canons Park",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUCPK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Canons Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 332,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526735.2854,
+          183390.8717
+        ]
+      },
+      "properties": {
+        "OBJECTID": 332,
+        "NAME": "St. John's Wood",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUSJW",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "St. John's Wood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 333,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531592.3412,
+          180073.990499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 333,
+        "NAME": "Southwark",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUSWK",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Southwark station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 334,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532683.0478,
+          180188.852299999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 334,
+        "NAME": "London Bridge",
+        "LINES": "Northern, Jubilee",
+        "ATCOCODE": "940GZZLULNB",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "London Bridge station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 335,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524800.3804,
+          170683.6656
+        ]
+      },
+      "properties": {
+        "OBJECTID": 335,
+        "NAME": "Wimbledon",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUWIM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Wimbledon station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 336,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525546.1518,
+          191626.9482
+        ]
+      },
+      "properties": {
+        "OBJECTID": 336,
+        "NAME": "West Finchley",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUWFN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "West Finchley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 379,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529024.8784,
+          177247.2655
+        ]
+      },
+      "properties": {
+        "OBJECTID": 379,
+        "NAME": "Battersea Power Station",
+        "LINES": "Northern",
+        "ATCOCODE": null,
+        "MODES": "tube",
+        "ACCESSIBILITY": null,
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Battersea Power Station station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 380,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529989.2567,
+          177345.628799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 380,
+        "NAME": "Nine Elms",
+        "LINES": "Northern",
+        "ATCOCODE": null,
+        "MODES": "tube",
+        "ACCESSIBILITY": null,
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Nine Elms station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 384,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          519550.4974,
+          191940.4673
+        ]
+      },
+      "properties": {
+        "OBJECTID": 384,
+        "NAME": "Edgware",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUEGW",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Edgware station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 385,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518828.0459,
+          181227.755999999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 385,
+        "NAME": "North Ealing",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUNEN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "North Ealing station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 386,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          530558.3633,
+          184969.7784
+        ]
+      },
+      "properties": {
+        "OBJECTID": 386,
+        "NAME": "Caledonian Road",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUCAR",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Caledonian Road station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 387,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532911.9191,
+          180824.076099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 387,
+        "NAME": "Monument",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUMMT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Monument station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 388,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528837.973,
+          182179.857899999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 388,
+        "NAME": "Great Portland Street",
+        "LINES": "Metropolitan, Circle, Hammersmith & City",
+        "ATCOCODE": "940GZZLUGPS",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Great Portland Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 389,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524726.397,
+          173312.818499999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 389,
+        "NAME": "Southfields",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUSFS",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Southfields station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 390,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          549022.5413,
+          184709.7413
+        ]
+      },
+      "properties": {
+        "OBJECTID": 390,
+        "NAME": "Dagenham Heathway",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLUDGY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Dagenham Heathway station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 391,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          507585.6702,
+          175839.6403
+        ]
+      },
+      "properties": {
+        "OBJECTID": 391,
+        "NAME": "Heathrow Terminals 1-2-3",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHRC",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Heathrow Terminals 1-2-3 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 392,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          524901.4238,
+          181755.9263
+        ]
+      },
+      "properties": {
+        "OBJECTID": 392,
+        "NAME": "Westbourne Park",
+        "LINES": "Hammersmith & City, Circle",
+        "ATCOCODE": "940GZZLUWSP",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Westbourne Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 393,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518527.3157,
+          182634.1785
+        ]
+      },
+      "properties": {
+        "OBJECTID": 393,
+        "NAME": "Hanger Lane",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUHGR",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hanger Lane station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 394,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          543273.6779,
+          188430.207599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 394,
+        "NAME": "Gants Hill",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUGTH",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Gants Hill station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 395,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          538049.5634,
+          182523.513599999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 395,
+        "NAME": "Bromley-by-Bow",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUBBB",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Bromley-by-Bow station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 396,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518077.1529,
+          175161.4717
+        ]
+      },
+      "properties": {
+        "OBJECTID": 396,
+        "NAME": "Richmond",
+        "LINES": "District",
+        "ATCOCODE": "940GZZLURMD",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Richmond station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 397,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          526112.4036,
+          182039.408
+        ]
+      },
+      "properties": {
+        "OBJECTID": 397,
+        "NAME": "Warwick Avenue",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUWKA",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Warwick Avenue station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 398,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          529646.6061,
+          179498.074100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 398,
+        "NAME": "St. James's Park",
+        "LINES": "District, Circle",
+        "ATCOCODE": "940GZZLUSJP",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "St. James's Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 399,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531512.729,
+          189637.9518
+        ]
+      },
+      "properties": {
+        "OBJECTID": 399,
+        "NAME": "Turnpike Lane",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUTPN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Turnpike Lane station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 400,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          544358.8052,
+          184382.179
+        ]
+      },
+      "properties": {
+        "OBJECTID": 400,
+        "NAME": "Barking",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUBKG",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Barking station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 433,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525736.3947,
+          169989.4476
+        ]
+      },
+      "properties": {
+        "OBJECTID": 433,
+        "NAME": "South Wimbledon",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUSWN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "South Wimbledon station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 434,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516333.5188,
+          178693.009
+        ]
+      },
+      "properties": {
+        "OBJECTID": 434,
+        "NAME": "Boston Manor",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUBOS",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Boston Manor station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 435,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          535621.3116,
+          182135.557
+        ]
+      },
+      "properties": {
+        "OBJECTID": 435,
+        "NAME": "Stepney Green",
+        "LINES": "District, Hammersmith & City",
+        "ATCOCODE": "940GZZLUSGN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Stepney Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 436,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525030.1427,
+          196180.328199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 436,
+        "NAME": "High Barnet",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUHBT",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "High Barnet station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 437,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          511153.3473,
+          187621.8123
+        ]
+      },
+      "properties": {
+        "OBJECTID": 437,
+        "NAME": "Eastcote",
+        "LINES": "Metropolitan, Piccadilly",
+        "ATCOCODE": "940GZZLUEAE",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Eastcote station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 438,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          496371.5781,
+          198181.3279
+        ]
+      },
+      "properties": {
+        "OBJECTID": 438,
+        "NAME": "Amersham",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUAMS",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Amersham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 439,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          523328.566,
+          184883.4222
+        ]
+      },
+      "properties": {
+        "OBJECTID": 439,
+        "NAME": "Willesden Green",
+        "LINES": "Jubilee",
+        "ATCOCODE": "940GZZLUWIG",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Willesden Green station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 440,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528480.3274,
+          173244.480799999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 440,
+        "NAME": "Balham",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUBLM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Balham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 441,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528910.2525,
+          183893.5725
+        ]
+      },
+      "properties": {
+        "OBJECTID": 441,
+        "NAME": "Camden Town",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUCTN",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible - Interchange Only",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Camden Town station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 442,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          505109.3841,
+          175923.8204
+        ]
+      },
+      "properties": {
+        "OBJECTID": 442,
+        "NAME": "Heathrow Terminal 5",
+        "LINES": "Piccadilly",
+        "ATCOCODE": "940GZZLUHR5",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Heathrow Terminal 5 station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 470,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          521858.4876,
+          182959.8201
+        ]
+      },
+      "properties": {
+        "OBJECTID": 470,
+        "NAME": "Willesden Junction",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUWJN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Willesden Junction station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 471,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          527221.696,
+          189183.6545
+        ]
+      },
+      "properties": {
+        "OBJECTID": 471,
+        "NAME": "East Finchley",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUEFY",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "East Finchley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 472,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          528534.7964,
+          188180.791099999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 472,
+        "NAME": "Highgate",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUHGT",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Highgate station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 473,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          496079.3711,
+          201633.0847
+        ]
+      },
+      "properties": {
+        "OBJECTID": 473,
+        "NAME": "Chesham",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUCSM",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Chesham station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 474,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          505715.6061,
+          194601.2017
+        ]
+      },
+      "properties": {
+        "OBJECTID": 474,
+        "NAME": "Rickmansworth",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLURKW",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Rickmansworth station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 475,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          508606.4789,
+          193502.849199999
+        ]
+      },
+      "properties": {
+        "OBJECTID": 475,
+        "NAME": "Moor Park",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUMPK",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Moor Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 476,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          509229.7103,
+          191418.7435
+        ]
+      },
+      "properties": {
+        "OBJECTID": 476,
+        "NAME": "Northwood",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUNOW",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Northwood station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 477,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          507909.4599,
+          195402.8332
+        ]
+      },
+      "properties": {
+        "OBJECTID": 477,
+        "NAME": "Croxley",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUCXY",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Croxley station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 478,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          509569.47,
+          196595.9617
+        ]
+      },
+      "properties": {
+        "OBJECTID": 478,
+        "NAME": "Watford",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUWAF",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Watford station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 479,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532439.9633,
+          179751.461100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 479,
+        "NAME": "Borough",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUBOR",
+        "MODES": "bus, tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Borough station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 480,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          532764.4507,
+          182418.811100001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 480,
+        "NAME": "Old Street",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUODS",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Old Street station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 481,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          531560.5615,
+          183099.9257
+        ]
+      },
+      "properties": {
+        "OBJECTID": 481,
+        "NAME": "Angel",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUAGL",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Angel station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 482,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          522985.7318,
+          188635.9596
+        ]
+      },
+      "properties": {
+        "OBJECTID": 482,
+        "NAME": "Hendon Central",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUHCL",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Hendon Central station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 483,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          533642.8986,
+          188930.9134
+        ]
+      },
+      "properties": {
+        "OBJECTID": 483,
+        "NAME": "Seven Sisters",
+        "LINES": "Victoria",
+        "ATCOCODE": "940GZZLUSVS",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "Yes",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Seven Sisters station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 484,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          545541.5127,
+          199100.828500001
+        ]
+      },
+      "properties": {
+        "OBJECTID": 484,
+        "NAME": "Theydon Bois",
+        "LINES": "Central",
+        "ATCOCODE": "940GZZLUTHB",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Partially Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Theydon Bois station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 485,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          516727.9918,
+          188314.4716
+        ]
+      },
+      "properties": {
+        "OBJECTID": 485,
+        "NAME": "Kenton",
+        "LINES": "Bakerloo",
+        "ATCOCODE": "940GZZLUKEN",
+        "MODES": "tube",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Kenton station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 486,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          525718.4454,
+          192588.1262
+        ]
+      },
+      "properties": {
+        "OBJECTID": 486,
+        "NAME": "Woodside Park",
+        "LINES": "Northern",
+        "ATCOCODE": "940GZZLUWOP",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Fully Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Woodside Park station"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 487,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          518249.3308,
+          187281.8291
+        ]
+      },
+      "properties": {
+        "OBJECTID": 487,
+        "NAME": "Preston Road",
+        "LINES": "Metropolitan",
+        "ATCOCODE": "940GZZLUPRD",
+        "MODES": "tube, bus",
+        "ACCESSIBILITY": "Not Accessible",
+        "NIGHT_TUBE": "No",
+        "NETWORK": "London Underground",
+        "DATASET_LAST_UPDATED": 1638144000000,
+        "FULL_NAME": "Preston Road station"
+      }
+    }
+  ]
+}
