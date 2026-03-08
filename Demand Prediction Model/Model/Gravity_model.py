@@ -6,10 +6,10 @@ from shapely.geometry import Point
 from sklearn.neighbors import BallTree
 
 #Data
-population = pd.read_csv(r"C:\Users\Jonathan\OneDrive\Documents\SIG_Datathon\Dataset\Population.csv", sep=";", usecols=[0,2])
+population = pd.read_csv(r"Population.csv", sep=";", usecols=[0,2])
 population = population.rename(columns={'All Ages': 'Population', 'OA11CD':'Area'})
 
-coordinate = pd.read_csv(r"C:\Users\Jonathan\OneDrive\Documents\SIG_Datathon\Dataset\Coordinate_filter.csv", sep=",")
+coordinate = pd.read_csv(r"Coordinate_filter.csv", sep=",")
 
 data = pd.merge(population, coordinate, on='Area')
 
@@ -87,4 +87,5 @@ print(grid_latlon)
 
 #Top 10 locations
 top10 = grid_latlon.sort_values(by='gravity_log', ascending=False).head(10)
+
 print(top10[['lat','lon','gravity_log']])
