@@ -19,7 +19,7 @@ def clean_station_name(x: str) -> str:
     x = re.sub(r"\s*-\s*dlr$", "", x)
 
     # remove mode suffixes from flow dataset
-    x = re.sub(r"\s+(lu|lo|dlr|nr|el|tfl)$", "", x)
+    x = re.sub(r"\s+(lu|lo|dlr|nr|el|tfl|ezl)$", "", x)
 
     # special case
     x = x.replace("bank and monument", "bank")
