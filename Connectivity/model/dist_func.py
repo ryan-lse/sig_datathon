@@ -53,15 +53,6 @@ def load_tfl(url, df_name):
 
 
 
-
-
-
-
-
-
-
-
-
 def nearest_neighbor(centroids, stations, k=3, correction_factor=1.3):
 
 
