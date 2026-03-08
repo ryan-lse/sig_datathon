@@ -25,7 +25,7 @@ def pretty_station_name(name):
 # ----------------------------
 # 1. Load cleaned station dataset
 # ----------------------------
-stations = gpd.read_file("ss/combined_stations.geojson")
+stations = gpd.read_file("combined_stations.geojson")
 stations["station"] = stations["station"].apply(pretty_station_name)
 
 print("Stations loaded:", len(stations))
@@ -75,7 +75,7 @@ def find_nearest_station(lat, lon, station_lats, station_lons, station_names):
 lat_min, lat_max = 51.35, 51.65
 lon_min, lon_max = -0.35, 0.20
 
-grid = pd.read_csv("ss/sorted_grid.csv")
+grid = pd.read_csv("sorted_grid.csv")
 
 candidates = grid[["lat","lon"]].copy()
 
@@ -436,19 +436,19 @@ print(compute_top5_for_params(beta_value=1.5, radius_value=2.5))
 # ----------------------------
 # 14. Save outputs
 # ----------------------------
-candidates.to_file("ss/candidate_crowding_scores.geojson", driver="GeoJSON")
-candidates.drop(columns="geometry").to_csv("ss/candidate_crowding_scores.csv", index=False)
+candidates.to_file("candidate_crowding_scores.geojson", driver="GeoJSON")
+candidates.drop(columns="geometry").to_csv("candidate_crowding_scores.csv", index=False)
 
-top20.to_file("ss/top20_crowding_locations.geojson", driver="GeoJSON")
-top20.drop(columns="geometry").to_csv("ss/top20_crowding_locations.csv", index=False)
+top20.to_file("top20_crowding_locations.geojson", driver="GeoJSON")
+top20.drop(columns="geometry").to_csv("top20_crowding_locations.csv", index=False)
 
-top100.to_file("ss/top100_crowding_locations.geojson", driver="GeoJSON")
-top100.drop(columns="geometry").to_csv("ss/top100_crowding_locations.csv", index=False)
+top100.to_file("top100_crowding_locations.geojson", driver="GeoJSON")
+top100.drop(columns="geometry").to_csv("top100_crowding_locations.csv", index=False)
 
-top10_table.to_csv("ss/top10_candidate_locations_clean.csv", index=False)
-busiest_stations.to_csv("ss/top20_busiest_stations.csv", index=False)
-relief_df.to_csv("ss/top_relieved_stations.csv", index=False)
-zone_summary.to_csv("ss/candidate_zones_summary.csv", index=False)
+top10_table.to_csv("top10_candidate_locations_clean.csv", index=False)
+busiest_stations.to_csv("top20_busiest_stations.csv", index=False)
+relief_df.to_csv("top_relieved_stations.csv", index=False)
+zone_summary.to_csv("candidate_zones_summary.csv", index=False)
 
 # Team-ready export
 team_scoring = candidates[
@@ -462,20 +462,20 @@ team_scoring = candidates[
     ]
 ].copy()
 
-team_scoring.to_csv("ss/team_crowding_scores.csv", index=False)
+team_scoring.to_csv("team_crowding_scores.csv", index=False)
 
 print("\nSaved:")
-print("- ss/candidate_crowding_scores.geojson")
-print("- ss/candidate_crowding_scores.csv")
-print("- ss/top20_crowding_locations.geojson")
-print("- ss/top20_crowding_locations.csv")
-print("- ss/top100_crowding_locations.geojson")
-print("- ss/top100_crowding_locations.csv")
-print("- ss/top10_candidate_locations_clean.csv")
-print("- ss/top20_busiest_stations.csv")
-print("- ss/top_relieved_stations.csv")
-print("- ss/candidate_zones_summary.csv")
-print("- ss/team_crowding_scores.csv")
+print("- candidate_crowding_scores.geojson")
+print("- candidate_crowding_scores.csv")
+print("- top20_crowding_locations.geojson")
+print("- top20_crowding_locations.csv")
+print("- top100_crowding_locations.geojson")
+print("- top100_crowding_locations.csv")
+print("- top10_candidate_locations_clean.csv")
+print("- top20_busiest_stations.csv")
+print("- top_relieved_stations.csv")
+print("- candidate_zones_summary.csv")
+print("- team_crowding_scores.csv")
 
 
 # ----------------------------
