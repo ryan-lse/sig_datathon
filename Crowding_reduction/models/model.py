@@ -463,20 +463,20 @@ team_scoring = valid_candidates[
     ]
 ].copy()
 
-team_scoring.to_csv("ss/team_crowding_scores.csv", index=False)
+team_scoring.to_csv("output/team_crowding_scores.csv", index=False)
 
 print("\nSaved:")
-print("- ss/candidate_crowding_scores.geojson")
-print("- ss/candidate_crowding_scores.csv")
-print("- ss/top20_crowding_locations.geojson")
-print("- ss/top20_crowding_locations.csv")
-print("- ss/top100_crowding_locations.geojson")
-print("- ss/top100_crowding_locations.csv")
-print("- ss/top10_candidate_locations_clean.csv")
-print("- ss/top20_busiest_stations.csv")
-print("- ss/top_relieved_stations.csv")
-print("- ss/candidate_zones_summary.csv")
-print("- ss/team_crowding_scores.csv")
+print("- output/candidate_crowding_scores.geojson")
+print("- output/candidate_crowding_scores.csv")
+print("- output/top20_crowding_locations.geojson")
+print("- output/top20_crowding_locations.csv")
+print("- output/top100_crowding_locations.geojson")
+print("- output/top100_crowding_locations.csv")
+print("- output/top10_candidate_locations_clean.csv")
+print("- output/top20_busiest_stations.csv")
+print("- output/top_relieved_stations.csv")
+print("- output/candidate_zones_summary.csv")
+print("- output/team_crowding_scores.csv")
 
 
 # ----------------------------
