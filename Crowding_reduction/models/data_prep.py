@@ -33,10 +33,10 @@ def clean_station_name(x: str) -> str:
 # ----------------------------
 # 2. Load station CSV files
 # ----------------------------
-underground = pd.read_csv("ss/Underground_Stations.csv")
-overground = pd.read_csv("ss/Overground_Stations.csv")
-dlr = pd.read_csv("ss/DLR_Stations.csv")
-elizabeth = pd.read_csv("ss/Elizabeth_Line_Stations.csv")
+underground = pd.read_csv("Underground_Stations.csv")
+overground = pd.read_csv("Overground_Stations.csv")
+dlr = pd.read_csv("DLR_Stations.csv")
+elizabeth = pd.read_csv("Elizabeth_Line_Stations.csv")
 
 print("Loaded station CSV files.")
 
@@ -118,7 +118,7 @@ print("Number of station rows:", len(stations))
 # 8. Load passenger flow Excel file
 # ----------------------------
 flows = pd.read_excel(
-    "ss/AC2024_AnnualisedEntryExit_Public.xlsx",
+    "AC2024_AnnualisedEntryExit_Public.xlsx",
     header=5
 )
 
@@ -233,15 +233,15 @@ print("\nTotal number of stations:",
 # 18. Save cleaned dataset
 # ----------------------------
 stations.to_file(
-    "ss/combined_stations.geojson",
+    "combined_stations.geojson",
     driver="GeoJSON"
 )
 
 stations.drop(columns="geometry").to_csv(
-    "ss/combined_stations.csv",
+    "combined_stations.csv",
     index=False
 )
 
 print("\nSaved:")
-print("- ss/combined_stations.geojson")
-print("- ss/combined_stations.csv")
+print("- combined_stations.geojson")
+print("- combined_stations.csv")
