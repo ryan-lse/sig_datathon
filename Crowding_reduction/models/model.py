@@ -25,7 +25,7 @@ def pretty_station_name(name):
 # ----------------------------
 # 1. Load cleaned station dataset
 # ----------------------------
-stations = gpd.read_file("output/combined_stations.geojson")
+stations = gpd.read_file("ss/combined_stations.geojson")
 stations["station"] = stations["station"].apply(pretty_station_name)
 
 print("Stations loaded:", len(stations))
@@ -75,17 +75,16 @@ def find_nearest_station(lat, lon, station_lats, station_lons, station_names):
 lat_min, lat_max = 51.35, 51.65
 lon_min, lon_max = -0.35, 0.20
 
-lat_range = np.linspace(lat_min, lat_max, 70)
-lon_range = np.linspace(lon_min, lon_max, 70)
+grid = pd.read_csv("ss/sorted_grid.csv")
 
-candidate_points = [(lat, lon) for lat in lat_range for lon in lon_range]
-candidates = pd.DataFrame(candidate_points, columns=["lat", "lon"])
+candidates = grid[["lat","lon"]].copy()
 
 candidates = gpd.GeoDataFrame(
     candidates,
     geometry=gpd.points_from_xy(candidates["lon"], candidates["lat"]),
     crs="EPSG:4326"
 )
+
 
 print("\nNumber of candidate locations:", len(candidates))
 
@@ -129,9 +128,9 @@ for idx, candidate in candidates.iterrows():
     distances = haversine(cand_lat, cand_lon, station_lats, station_lons)
     min_d = distances.min()
     min_distances.append(min_d)
-
+    
     if min_d < min_station_distance_km:
-        scores.append(np.nan)
+        scores.append(0.0)
         top_contributors.append("")
         valid_candidate.append(False)
     else:
@@ -172,7 +171,7 @@ candidates["valid_candidate"] = valid_candidate
 # ----------------------------
 # 8. Rank best candidate locations
 # ----------------------------
-valid_candidates = candidates.dropna(subset=["crowding_score"]).copy()
+valid_candidates = candidates.copy()
 
 # Normalize for team scoring use
 score_min = valid_candidates["crowding_score"].min()
@@ -403,7 +402,7 @@ def compute_top5_for_params(beta_value, radius_value):
         min_d = distances.min()
 
         if min_d < min_station_distance_km:
-            scores_tmp.append(np.nan)
+            scores_tmp.append(0.0)
             continue
 
         mask = distances < radius_value
@@ -437,22 +436,22 @@ print(compute_top5_for_params(beta_value=1.5, radius_value=2.5))
 # ----------------------------
 # 14. Save outputs
 # ----------------------------
-candidates.to_file("output/candidate_crowding_scores.geojson", driver="GeoJSON")
-candidates.drop(columns="geometry").to_csv("output/candidate_crowding_scores.csv", index=False)
+candidates.to_file("ss/candidate_crowding_scores.geojson", driver="GeoJSON")
+candidates.drop(columns="geometry").to_csv("ss/candidate_crowding_scores.csv", index=False)
 
-top20.to_file("output/top20_crowding_locations.geojson", driver="GeoJSON")
-top20.drop(columns="geometry").to_csv("output/top20_crowding_locations.csv", index=False)
+top20.to_file("ss/top20_crowding_locations.geojson", driver="GeoJSON")
+top20.drop(columns="geometry").to_csv("ss/top20_crowding_locations.csv", index=False)
 
-top100.to_file("output/top100_crowding_locations.geojson", driver="GeoJSON")
-top100.drop(columns="geometry").to_csv("output/top100_crowding_locations.csv", index=False)
+top100.to_file("ss/top100_crowding_locations.geojson", driver="GeoJSON")
+top100.drop(columns="geometry").to_csv("ss/top100_crowding_locations.csv", index=False)
 
-top10_table.to_csv("output/top10_candidate_locations_clean.csv", index=False)
-busiest_stations.to_csv("output/top20_busiest_stations.csv", index=False)
-relief_df.to_csv("output/top_relieved_stations.csv", index=False)
-zone_summary.to_csv("output/candidate_zones_summary.csv", index=False)
+top10_table.to_csv("ss/top10_candidate_locations_clean.csv", index=False)
+busiest_stations.to_csv("ss/top20_busiest_stations.csv", index=False)
+relief_df.to_csv("ss/top_relieved_stations.csv", index=False)
+zone_summary.to_csv("ss/candidate_zones_summary.csv", index=False)
 
 # Team-ready export
-team_scoring = valid_candidates[
+team_scoring = candidates[
     [
         "lat",
         "lon",
@@ -463,20 +462,20 @@ team_scoring = valid_candidates[
     ]
 ].copy()
 
-team_scoring.to_csv("output/team_crowding_scores.csv", index=False)
+team_scoring.to_csv("ss/team_crowding_scores.csv", index=False)
 
 print("\nSaved:")
-print("- output/candidate_crowding_scores.geojson")
-print("- output/candidate_crowding_scores.csv")
-print("- output/top20_crowding_locations.geojson")
-print("- output/top20_crowding_locations.csv")
-print("- output/top100_crowding_locations.geojson")
-print("- output/top100_crowding_locations.csv")
-print("- output/top10_candidate_locations_clean.csv")
-print("- output/top20_busiest_stations.csv")
-print("- output/top_relieved_stations.csv")
-print("- output/candidate_zones_summary.csv")
-print("- output/team_crowding_scores.csv")
+print("- ss/candidate_crowding_scores.geojson")
+print("- ss/candidate_crowding_scores.csv")
+print("- ss/top20_crowding_locations.geojson")
+print("- ss/top20_crowding_locations.csv")
+print("- ss/top100_crowding_locations.geojson")
+print("- ss/top100_crowding_locations.csv")
+print("- ss/top10_candidate_locations_clean.csv")
+print("- ss/top20_busiest_stations.csv")
+print("- ss/top_relieved_stations.csv")
+print("- ss/candidate_zones_summary.csv")
+print("- ss/team_crowding_scores.csv")
 
 
 # ----------------------------
