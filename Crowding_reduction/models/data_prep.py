@@ -191,8 +191,8 @@ print(unmatched.sort_values("station").head(30))
 # ----------------------------
 # 15. Save cleaned combined dataset
 # ----------------------------
-stations.to_file("ss/combined_stations.geojson", driver="GeoJSON")
-stations.drop(columns="geometry").to_csv("ss/combined_stations.csv", index=False)
+stations.to_file("output/combined_stations.geojson", driver="GeoJSON")
+stations.drop(columns="geometry").to_csv("output/combined_stations.csv", index=False)
 
 print("\nSaved:")
 print("- output/combined_stations.geojson")
