@@ -171,4 +171,4 @@ def combine_connectivity_score(result_df, alpha=0.5, beta=0.5):
 
     return result
 
-def bus_norm(bus_df, buffer=500)
+#def bus_norm(bus_df, buffer=500)
