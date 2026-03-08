@@ -8,10 +8,25 @@ import re
 # 1. Helper function
 # ----------------------------
 def clean_station_name(x: str) -> str:
+
     x = str(x).lower().strip()
-    x = re.sub(r"[’']", "", x)      # remove apostrophes
-    x = re.sub(r"\.", "", x)        # remove full stops
-    x = re.sub(r"\s+", " ", x)      # normalize spaces
+
+    # remove punctuation
+    x = re.sub(r"[’']", "", x)
+    x = re.sub(r"\.", "", x)
+
+    # remove "- dlr" suffix from station CSVs
+    x = re.sub(r"\s*-\s*dlr$", "", x)
+
+    # remove mode suffixes from flow dataset
+    x = re.sub(r"\s+(lu|lo|dlr|nr|el|tfl)$", "", x)
+
+    # special case
+    x = x.replace("bank and monument", "bank")
+
+    # normalize whitespace
+    x = re.sub(r"\s+", " ", x)
+
     return x
 
 
@@ -24,6 +39,7 @@ dlr = pd.read_csv("ss/DLR_Stations.csv")
 elizabeth = pd.read_csv("ss/Elizabeth_Line_Stations.csv")
 
 print("Loaded station CSV files.")
+
 print("Underground columns:", underground.columns.tolist())
 print("Overground columns:", overground.columns.tolist())
 print("DLR columns:", dlr.columns.tolist())
@@ -32,7 +48,6 @@ print("Elizabeth columns:", elizabeth.columns.tolist())
 
 # ----------------------------
 # 3. Convert each to GeoDataFrame
-#    Assumes X/Y are British National Grid (EPSG:27700)
 # ----------------------------
 underground = gpd.GeoDataFrame(
     underground,
@@ -60,7 +75,7 @@ elizabeth = gpd.GeoDataFrame(
 
 
 # ----------------------------
-# 4. Convert coordinates to WGS84 (lat/lon)
+# 4. Convert coordinates to WGS84
 # ----------------------------
 underground = underground.to_crs("EPSG:4326")
 overground = overground.to_crs("EPSG:4326")
@@ -72,6 +87,7 @@ elizabeth = elizabeth.to_crs("EPSG:4326")
 # 5. Extract lon/lat columns
 # ----------------------------
 for df in [underground, overground, dlr, elizabeth]:
+
     df["lon"] = df.geometry.x
     df["lat"] = df.geometry.y
 
@@ -86,7 +102,7 @@ elizabeth["mode"] = "elizabeth"
 
 
 # ----------------------------
-# 7. Combine all station datasets
+# 7. Combine station datasets
 # ----------------------------
 stations = gpd.GeoDataFrame(
     pd.concat([underground, overground, dlr, elizabeth], ignore_index=True),
@@ -100,7 +116,6 @@ print("Number of station rows:", len(stations))
 
 # ----------------------------
 # 8. Load passenger flow Excel file
-#    header=5 because the real headers start on row 6
 # ----------------------------
 flows = pd.read_excel(
     "ss/AC2024_AnnualisedEntryExit_Public.xlsx",
@@ -112,43 +127,52 @@ print("Flow columns:", flows.columns.tolist())
 
 
 # ----------------------------
-# 9. Clean station names in both datasets
+# 9. Clean station names
 # ----------------------------
 stations["station"] = stations["NAME"].apply(clean_station_name)
 flows["station"] = flows["Station"].apply(clean_station_name)
 
 
 # ----------------------------
-# 10. Keep only needed columns from flows
+# 10. Keep only necessary flow columns
 # ----------------------------
-flows = flows[["station", "Mode", "Station", "Annualised"]].copy()
+flows = flows[["station", "Annualised"]].copy()
 
 
 # ----------------------------
-# 11. Convert Annualised to numeric
+# 11. Convert passenger counts to numeric
 # ----------------------------
 flows["Annualised"] = pd.to_numeric(flows["Annualised"], errors="coerce")
 
 
 # ----------------------------
-# 12. Merge passenger flows into stations
+# 12. Aggregate flows BEFORE merging
+# ----------------------------
+flows = flows.groupby("station", as_index=False)["Annualised"].sum()
+
+print("\nUnique stations in flow dataset:", len(flows))
+
+
+# ----------------------------
+# 13. Merge passenger flows into station locations
 # ----------------------------
 stations = stations.merge(
-    flows[["station", "Annualised"]],
+    flows,
     on="station",
     how="left"
 )
 
 
 # ----------------------------
-# 13. Remove duplicate station names across modes
-#    so Stratford is not counted 3 times
+# 14. Collapse duplicate station rows
 # ----------------------------
 stations = stations.groupby("station").agg({
+
     "lon": "first",
     "lat": "first",
     "Annualised": "first",
     "geometry": "first"
+
 }).reset_index()
 
 stations = gpd.GeoDataFrame(
@@ -159,14 +183,20 @@ stations = gpd.GeoDataFrame(
 
 
 # ----------------------------
-# 14. Diagnostics
+# 15. Diagnostics
 # ----------------------------
 print("\nMerge complete.")
-print("Matched passenger counts:", stations["Annualised"].notna().sum())
-print("Unmatched station rows:", stations["Annualised"].isna().sum())
+
+print("Stations with passenger data:",
+      stations["Annualised"].notna().sum())
+
+print("Stations without passenger data:",
+      stations["Annualised"].isna().sum())
+
 
 print("\nSample rows:")
 print(stations[["station", "lon", "lat", "Annualised"]].head(10))
+
 
 print("\nTop 15 stations by annualised flow:")
 print(
@@ -175,24 +205,42 @@ print(
     ].head(15)
 )
 
+
 print("\nCoordinate system:", stations.crs)
 print("Bounding box:", stations.total_bounds)
-print("Object type:", type(stations))
 
 
 # ----------------------------
-# 14b. Check unmatched stations
+# 16. Check unmatched stations
 # ----------------------------
-unmatched = stations[stations["Annualised"].isna()][["station"]].copy()
+unmatched = stations[stations["Annualised"].isna()][["station"]]
+
 print("\nSample unmatched stations:")
 print(unmatched.sort_values("station").head(30))
 
 
 # ----------------------------
-# 15. Save cleaned combined dataset
+# 17. Dataset sanity checks
 # ----------------------------
-stations.to_file("ss/combined_stations.geojson", driver="GeoJSON")
-stations.drop(columns="geometry").to_csv("ss/combined_stations.csv", index=False)
+print("\nTotal passengers in dataset:",
+      stations["Annualised"].sum())
+
+print("\nTotal number of stations:",
+      len(stations))
+
+
+# ----------------------------
+# 18. Save cleaned dataset
+# ----------------------------
+stations.to_file(
+    "ss/combined_stations.geojson",
+    driver="GeoJSON"
+)
+
+stations.drop(columns="geometry").to_csv(
+    "ss/combined_stations.csv",
+    index=False
+)
 
 print("\nSaved:")
 print("- ss/combined_stations.geojson")

@@ -75,17 +75,16 @@ def find_nearest_station(lat, lon, station_lats, station_lons, station_names):
 lat_min, lat_max = 51.35, 51.65
 lon_min, lon_max = -0.35, 0.20
 
-lat_range = np.linspace(lat_min, lat_max, 70)
-lon_range = np.linspace(lon_min, lon_max, 70)
+grid = pd.read_csv("ss/sorted_grid.csv")
 
-candidate_points = [(lat, lon) for lat in lat_range for lon in lon_range]
-candidates = pd.DataFrame(candidate_points, columns=["lat", "lon"])
+candidates = grid[["lat","lon"]].copy()
 
 candidates = gpd.GeoDataFrame(
     candidates,
     geometry=gpd.points_from_xy(candidates["lon"], candidates["lat"]),
     crs="EPSG:4326"
 )
+
 
 print("\nNumber of candidate locations:", len(candidates))
 
@@ -129,9 +128,9 @@ for idx, candidate in candidates.iterrows():
     distances = haversine(cand_lat, cand_lon, station_lats, station_lons)
     min_d = distances.min()
     min_distances.append(min_d)
-
+    
     if min_d < min_station_distance_km:
-        scores.append(np.nan)
+        scores.append(0.0)
         top_contributors.append("")
         valid_candidate.append(False)
     else:
@@ -172,7 +171,7 @@ candidates["valid_candidate"] = valid_candidate
 # ----------------------------
 # 8. Rank best candidate locations
 # ----------------------------
-valid_candidates = candidates.dropna(subset=["crowding_score"]).copy()
+valid_candidates = candidates.copy()
 
 # Normalize for team scoring use
 score_min = valid_candidates["crowding_score"].min()
@@ -403,7 +402,7 @@ def compute_top5_for_params(beta_value, radius_value):
         min_d = distances.min()
 
         if min_d < min_station_distance_km:
-            scores_tmp.append(np.nan)
+            scores_tmp.append(0.0)
             continue
 
         mask = distances < radius_value
@@ -452,7 +451,7 @@ relief_df.to_csv("ss/top_relieved_stations.csv", index=False)
 zone_summary.to_csv("ss/candidate_zones_summary.csv", index=False)
 
 # Team-ready export
-team_scoring = valid_candidates[
+team_scoring = candidates[
     [
         "lat",
         "lon",
