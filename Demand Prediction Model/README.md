@@ -1,7 +1,3 @@
-Got it! Based on your Tube Accessibility Gap example, here’s a **README written in the same style** for your **Gravity Model for Multi-Value Scoring**:
-
----
-
 # Gravity Model Scoring Pipeline
 
 ## Overview
