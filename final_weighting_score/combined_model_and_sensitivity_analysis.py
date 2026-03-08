@@ -85,7 +85,7 @@ CROWDING_CSV     = os.path.join(REPO_ROOT, "Crowding_reduction", "output", "team
 TRAVEL_CSV       = os.path.join(REPO_ROOT, "Travel  Time Reduction", "output", "candidate_reduction_scores(n=50).csv")
 CONNECTIVITY_CSV = os.path.join(REPO_ROOT, "Connectivity", "connectivity_scores.csv")
 
-OUTPUT_DIR = os.path.join(REPO_ROOT, "combined_scoring", "output")
+OUTPUT_DIR = os.path.join(REPO_ROOT, "final_weighting_score", "output")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
@@ -172,16 +172,24 @@ has_connectivity = False
 
 if os.path.exists(CONNECTIVITY_CSV):
     conn = pd.read_csv(CONNECTIVITY_CSV)
-    conn["lat_r"] = conn["lat"].round(6)
-    conn["lon_r"] = conn["lon"].round(6)
+    # Use round(4) for matching — the connectivity CSV was generated from
+    # grids.geojson which has slight float differences from sorted_grid.csv
+    # due to EPSG:27700 → EPSG:4326 reprojection
+    conn["lat_r"] = conn["lat"].round(4)
+    conn["lon_r"] = conn["lon"].round(4)
+    grid["lat_r4"] = grid["lat"].round(4)
+    grid["lon_r4"] = grid["lon"].round(4)
 
     grid = grid.merge(
-        conn[["lat_r", "lon_r", "connectivity_score"]],
-        on=["lat_r", "lon_r"],
+        conn[["lat_r", "lon_r", "connectivity_score",
+              "harmonic_mean_adj_dist_norm", "line_unique_count_norm"]].rename(
+            columns={"lat_r": "lat_r4", "lon_r": "lon_r4"}),
+        on=["lat_r4", "lon_r4"],
         how="left"
     )
+    grid.drop(columns=["lat_r4", "lon_r4"], inplace=True, errors="ignore")
     grid["connectivity_norm"] = minmax(grid["connectivity_score"].fillna(0))
-    has_connectivity = True
+    has_connectivity = grid["connectivity_score"].notna().sum() > 100
     print(f"  matched: {grid['connectivity_score'].notna().sum()} / {len(grid)}")
     print(f"  range: {grid['connectivity_norm'].min():.4f} – {grid['connectivity_norm'].max():.4f}")
 else:
@@ -461,5 +469,120 @@ print(f"    Travel time reduction:       {best['travel_time_norm']:.3f}")
 if pd.notna(best.get("top_relieved_stations", None)):
     print(f"  Relieves: {best['top_relieved_stations']}")
 print(f"  Distance to nearest station:   {best.get('min_distance_to_station_km', 'N/A')} km")
+
+
+# ──────────────────────────────────────────────
+# 11. Gravity model sensitivity analysis
+# ──────────────────────────────────────────────
+
+print("\n\n" + "=" * 55)
+print("GRAVITY MODEL SENSITIVITY (beta × radius)")
+print("=" * 55)
+
+try:
+    import geopandas as gpd
+    from shapely.geometry import Point as ShapelyPoint
+    from sklearn.neighbors import BallTree
+
+    pop_csv = os.path.join(REPO_ROOT, "Demand Prediction Model", "Data", "Population.csv")
+    coord_csv = os.path.join(REPO_ROOT, "Demand Prediction Model", "Data", "Coordinate_filter.csv")
+
+    if os.path.exists(pop_csv) and os.path.exists(coord_csv):
+        population = pd.read_csv(pop_csv, sep=";", usecols=[0, 2])
+        population = population.rename(columns={"All Ages": "Population", "OA11CD": "Area"})
+        coordinate = pd.read_csv(coord_csv, sep=",")
+        pop_data = pd.merge(population, coordinate, on="Area")
+
+        geom = [ShapelyPoint(xy) for xy in zip(pop_data["LONG"], pop_data["LAT"])]
+        gdf_pop = gpd.GeoDataFrame(pop_data, geometry=geom, crs="EPSG:4326").to_crs(epsg=27700)
+        coords_pop = np.array([[pt.x, pt.y] for pt in gdf_pop.geometry])
+        pop_vals = gdf_pop["Population"].values
+
+        # Use same grid
+        xmin, ymin, xmax, ymax = gdf_pop.total_bounds
+        step = 1000
+        grid_pts = [ShapelyPoint(x, y) for x in np.arange(xmin, xmax, step)
+                     for y in np.arange(ymin, ymax, step)]
+        grid_grav = gpd.GeoDataFrame(geometry=grid_pts, crs=gdf_pop.crs)
+        grid_grav_coords = np.array([[pt.x, pt.y] for pt in grid_grav.geometry])
+        grid_grav_latlon = grid_grav.to_crs(epsg=4326)
+        grid_grav["lat"] = grid_grav_latlon.geometry.y
+        grid_grav["lon"] = grid_grav_latlon.geometry.x
+
+        tree_pop = BallTree(coords_pop, leaf_size=50, metric="euclidean")
+
+        grav_scenarios = [
+            (1.0, 2500), (1.5, 2500), (2.0, 2500),  # vary beta
+            (1.5, 2000), (1.5, 3000),                 # vary radius
+        ]
+
+        grav_sensitivity = []
+        for beta_val, radius_val in grav_scenarios:
+            idxs_list, dists_list = tree_pop.query_radius(grid_grav_coords, r=radius_val, return_distance=True)
+            scores = []
+            for idxs, d in zip(idxs_list, dists_list):
+                idxs = np.array(idxs, dtype=int)
+                d = np.array(d)
+                if len(idxs) == 0:
+                    scores.append(0)
+                    continue
+                d = np.where(d == 0, 1e-6, d)
+                scores.append((pop_vals[idxs] / (d ** beta_val)).sum())
+            scores = np.log1p(np.array(scores))
+            top5_idx = np.argsort(scores)[-5:][::-1]
+            label = f"beta={beta_val}, radius={radius_val}m"
+            print(f"\n  {label}:")
+            for rank, idx in enumerate(top5_idx, 1):
+                print(f"    {rank}. ({grid_grav.iloc[idx]['lat']:.4f}, {grid_grav.iloc[idx]['lon']:.4f})  score={scores[idx]:.2f}")
+                grav_sensitivity.append({
+                    "scenario": label, "rank": rank,
+                    "lat": grid_grav.iloc[idx]["lat"], "lon": grid_grav.iloc[idx]["lon"],
+                    "score": scores[idx]
+                })
+
+        grav_sens_df = pd.DataFrame(grav_sensitivity)
+        grav_sens_path = os.path.join(OUTPUT_DIR, "gravity_sensitivity.csv")
+        grav_sens_df.to_csv(grav_sens_path, index=False)
+        print(f"\n  Saved: {grav_sens_path}")
+    else:
+        print("  Skipped — population/coordinate data not found")
+except Exception as e:
+    print(f"  Skipped — {e}")
+
+
+# ──────────────────────────────────────────────
+# 12. Connectivity sensitivity analysis (alpha/beta weights)
+# ──────────────────────────────────────────────
+
+print("\n\n" + "=" * 55)
+print("CONNECTIVITY SENSITIVITY (distance α vs diversity β)")
+print("=" * 55)
+
+if has_connectivity and "harmonic_mean_adj_dist_norm" in grid.columns and "line_unique_count_norm" in grid.columns:
+    conn_sensitivity = []
+    alpha_values = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+
+    for alpha_val in alpha_values:
+        beta_val = 1.0 - alpha_val
+        score = alpha_val * grid["harmonic_mean_adj_dist_norm"].fillna(0) + beta_val * grid["line_unique_count_norm"].fillna(0)
+        top5_idx = score.nlargest(5).index
+        label = f"α={alpha_val:.1f}, β={beta_val:.1f}"
+        print(f"\n  {label}:")
+        for rank, idx in enumerate(top5_idx, 1):
+            r = grid.loc[idx]
+            print(f"    {rank}. ({r['lat']:.4f}, {r['lon']:.4f})  score={score.loc[idx]:.4f}")
+            conn_sensitivity.append({
+                "scenario": label, "rank": rank,
+                "lat": r["lat"], "lon": r["lon"],
+                "score": score.loc[idx]
+            })
+
+    conn_sens_df = pd.DataFrame(conn_sensitivity)
+    conn_sens_path = os.path.join(OUTPUT_DIR, "connectivity_sensitivity.csv")
+    conn_sens_df.to_csv(conn_sens_path, index=False)
+    print(f"\n  Saved: {conn_sens_path}")
+else:
+    print("  Skipped — connectivity scores not available")
+
 
 print("\nDone.")
