@@ -18,10 +18,10 @@ def clean_station_name(x: str) -> str:
 # ----------------------------
 # 2. Load station CSV files
 # ----------------------------
-underground = pd.read_csv("ss/Underground_Stations.csv")
-overground = pd.read_csv("ss/Overground_Stations.csv")
-dlr = pd.read_csv("ss/DLR_Stations.csv")
-elizabeth = pd.read_csv("ss/Elizabeth_Line_Stations.csv")
+underground = pd.read_csv("data/Underground_Stations.csv")
+overground = pd.read_csv("data/Overground_Stations.csv")
+dlr = pd.read_csv("data/DLR_Stations.csv")
+elizabeth = pd.read_csv("data/Elizabeth_Line_Stations.csv")
 
 print("Loaded station CSV files.")
 print("Underground columns:", underground.columns.tolist())
@@ -103,7 +103,7 @@ print("Number of station rows:", len(stations))
 #    header=5 because the real headers start on row 6
 # ----------------------------
 flows = pd.read_excel(
-    "ss/AC2024_AnnualisedEntryExit_Public.xlsx",
+    "data/AC2024_AnnualisedEntryExit_Public.xlsx",
     header=5
 )
 
@@ -195,5 +195,5 @@ stations.to_file("ss/combined_stations.geojson", driver="GeoJSON")
 stations.drop(columns="geometry").to_csv("ss/combined_stations.csv", index=False)
 
 print("\nSaved:")
-print("- ss/combined_stations.geojson")
-print("- ss/combined_stations.csv")
+print("- output/combined_stations.geojson")
+print("- output/combined_stations.csv")

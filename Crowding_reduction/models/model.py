@@ -25,7 +25,7 @@ def pretty_station_name(name):
 # ----------------------------
 # 1. Load cleaned station dataset
 # ----------------------------
-stations = gpd.read_file("ss/combined_stations.geojson")
+stations = gpd.read_file("output/combined_stations.geojson")
 stations["station"] = stations["station"].apply(pretty_station_name)
 
 print("Stations loaded:", len(stations))
@@ -437,19 +437,19 @@ print(compute_top5_for_params(beta_value=1.5, radius_value=2.5))
 # ----------------------------
 # 14. Save outputs
 # ----------------------------
-candidates.to_file("ss/candidate_crowding_scores.geojson", driver="GeoJSON")
-candidates.drop(columns="geometry").to_csv("ss/candidate_crowding_scores.csv", index=False)
+candidates.to_file("output/candidate_crowding_scores.geojson", driver="GeoJSON")
+candidates.drop(columns="geometry").to_csv("output/candidate_crowding_scores.csv", index=False)
 
-top20.to_file("ss/top20_crowding_locations.geojson", driver="GeoJSON")
-top20.drop(columns="geometry").to_csv("ss/top20_crowding_locations.csv", index=False)
+top20.to_file("output/top20_crowding_locations.geojson", driver="GeoJSON")
+top20.drop(columns="geometry").to_csv("output/top20_crowding_locations.csv", index=False)
 
-top100.to_file("ss/top100_crowding_locations.geojson", driver="GeoJSON")
-top100.drop(columns="geometry").to_csv("ss/top100_crowding_locations.csv", index=False)
+top100.to_file("output/top100_crowding_locations.geojson", driver="GeoJSON")
+top100.drop(columns="geometry").to_csv("output/top100_crowding_locations.csv", index=False)
 
-top10_table.to_csv("ss/top10_candidate_locations_clean.csv", index=False)
-busiest_stations.to_csv("ss/top20_busiest_stations.csv", index=False)
-relief_df.to_csv("ss/top_relieved_stations.csv", index=False)
-zone_summary.to_csv("ss/candidate_zones_summary.csv", index=False)
+top10_table.to_csv("output/top10_candidate_locations_clean.csv", index=False)
+busiest_stations.to_csv("output/top20_busiest_stations.csv", index=False)
+relief_df.to_csv("output/top_relieved_stations.csv", index=False)
+zone_summary.to_csv("output/candidate_zones_summary.csv", index=False)
 
 # Team-ready export
 team_scoring = valid_candidates[

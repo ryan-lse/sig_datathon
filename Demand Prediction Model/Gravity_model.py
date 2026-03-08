@@ -6,10 +6,10 @@ from shapely.geometry import Point
 from sklearn.neighbors import BallTree
 
 #Data
-population = pd.read_csv(r"C:\Users\Jonathan\OneDrive\Documents\SIG_Datathon\Dataset\Population.csv", sep=";", usecols=[0,2])
+population = pd.read_csv(r"Data/Population.csv", sep=";", usecols=[0,2])
 population = population.rename(columns={'All Ages': 'Population', 'OA11CD':'Area'})
 
-coordinate = pd.read_csv(r"C:\Users\Jonathan\OneDrive\Documents\SIG_Datathon\Dataset\Coordinates.csv", sep=",")
+coordinate = pd.read_csv(r"Data/Coordinates.csv", sep=",")
 coordinate = coordinate.rename(columns={'OA21CD':'Area'})
 coordinate = coordinate[['Area', 'LAT', 'LONG']]
 
