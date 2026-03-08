@@ -71,9 +71,9 @@ Compute the **gravity score** for each grid cell based on surrounding population
 3. For each grid point, identify all population points within a **radius** (e.g., 2,500m)
 4. Compute:
 
-[
+$$
 \text{Gravity Score} = \sum \frac{\text{Population}_i}{(\text{Distance}_i)^\beta}
-]
+$$
 
 where β controls the distance decay (e.g., β = 1.5)
 
@@ -110,14 +110,8 @@ Export the results for downstream use.
 
 **Output formats:**
 
-* CSV: `grid_latlon_ranked.csv`
-* Top 10 locations CSV: `top10_grid.csv`
-* Optional GeoJSON for GIS visualisation
+* CSV: `sorted_grid.csv`
 
-**Recommended usage:**
-
-* Feed into a **multi-value scoring model** alongside other metrics (travel time, crowding, accessibility)
-* Normalise each metric to 0–1 before weighted combination
 
 ---
 
@@ -138,8 +132,6 @@ Adjust for sensitivity and computation efficiency.
 | Output                  | Description                             | Format             |
 | ----------------------- | --------------------------------------- | ------------------ |
 | Gravity scores per grid | Influence of surrounding population     | CSV / GeoDataFrame |
-| Top-ranked points       | Highest-scoring grid cells              | CSV                |
-| Grid for mapping        | Full spatial coverage for visualization | GeoJSON            |
 
 ---
 
@@ -154,14 +146,6 @@ Adjust for sensitivity and computation efficiency.
 | numpy        | Distance calculations                 |
 | matplotlib   | Visualization                         |
 | scikit-learn | BallTree for neighbor search          |
-
-Install dependencies:
-
-```bash
-pip install pandas geopandas shapely numpy matplotlib scikit-learn
-```
-
----
 
 ## Data Sources
 
