@@ -89,3 +89,6 @@ print(grid_latlon)
 top10 = grid_latlon.sort_values(by='gravity_log', ascending=False).head(10)
 
 print(top10[['lat','lon','gravity_log']])
+
+grid_latlon[['lat', 'lon', 'gravity_score', 'gravity_log']].to_csv("sorted_grid.csv", index=False)
+print("Saved sorted_grid.csv")
