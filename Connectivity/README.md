@@ -133,8 +133,14 @@ Physical proximity could be weighted more heavily because it is the primary dete
 5. **Study area scoping**: Peripheral areas beyond reasonable Tube catchment are excluded to prevent boundary effects from inflating scores.
 
 ---
-## Existing Surface Transport Density
+## Leave out Bus Stops
+
 ---
+
+## Sensitivity Analysis
+1. k nearest neighbors
+2. α, β
+3. 
 
 ## Integration with Multi-Criteria Model
 
