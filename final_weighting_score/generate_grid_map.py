@@ -89,6 +89,15 @@ def parse_lines(val):
 
 all_stations["line_list"] = all_stations["LINES"].apply(parse_lines)
 
+# London GLA Boundary
+BOUNDARY_PATH = os.path.join(REPO_ROOT, "boundary", "London_GLA_Boundary.shp")
+if os.path.exists(BOUNDARY_PATH):
+    london_boundary = gpd.read_file(BOUNDARY_PATH).to_crs(epsg=4326)
+    print(f"  London boundary loaded")
+else:
+    london_boundary = None
+    print(f"  WARNING: London boundary not found at {BOUNDARY_PATH}")
+
 print(f"  Grid points: {len(df)}")
 print(f"  Stations: {len(all_stations)}")
 
@@ -326,6 +335,15 @@ for cand in top_candidates:
         ).add_to(conn_fg)
 
 conn_fg.add_to(m)
+
+
+# ── Layer 4: London GLA Boundary ──
+if london_boundary is not None:
+    folium.GeoJson(
+        london_boundary.__geo_interface__,
+        name="London Boundary",
+        style_function=lambda _: {"color": "black", "weight": 2, "fillOpacity": 0},
+    ).add_to(m)
 
 
 # ── Legend ──
