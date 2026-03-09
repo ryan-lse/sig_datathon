@@ -2,6 +2,8 @@ import pandas as pd
 import geopandas as gpd
 import numpy as np
 import matplotlib.pyplot as plt
+import folium
+import branca.colormap as cm
 
 
 def pretty_station_name(name):
@@ -25,7 +27,7 @@ def pretty_station_name(name):
 # ----------------------------
 # 1. Load cleaned station dataset
 # ----------------------------
-stations = gpd.read_file("combined_stations.geojson")
+stations = gpd.read_file("ss/combined_stations.geojson")
 stations["station"] = stations["station"].apply(pretty_station_name)
 
 print("Stations loaded:", len(stations))
@@ -70,21 +72,17 @@ def find_nearest_station(lat, lon, station_lats, station_lons, station_names):
 
 
 # ----------------------------
-# 4. Generate candidate station locations
+# 4. Load candidate grid
 # ----------------------------
-lat_min, lat_max = 51.35, 51.65
-lon_min, lon_max = -0.35, 0.20
+grid = pd.read_csv("ss/sorted_grid.csv")
 
-grid = pd.read_csv("sorted_grid.csv")
-
-candidates = grid[["lat","lon"]].copy()
+candidates = grid[["lat", "lon"]].copy()
 
 candidates = gpd.GeoDataFrame(
     candidates,
     geometry=gpd.points_from_xy(candidates["lon"], candidates["lat"]),
     crs="EPSG:4326"
 )
-
 
 print("\nNumber of candidate locations:", len(candidates))
 
@@ -128,7 +126,7 @@ for idx, candidate in candidates.iterrows():
     distances = haversine(cand_lat, cand_lon, station_lats, station_lons)
     min_d = distances.min()
     min_distances.append(min_d)
-    
+
     if min_d < min_station_distance_km:
         scores.append(0.0)
         top_contributors.append("")
@@ -173,15 +171,16 @@ candidates["valid_candidate"] = valid_candidate
 # ----------------------------
 valid_candidates = candidates.copy()
 
-# Normalize for team scoring use
 score_min = valid_candidates["crowding_score"].min()
 score_max = valid_candidates["crowding_score"].max()
 
-valid_candidates["crowding_score_norm"] = (
-    (valid_candidates["crowding_score"] - score_min) / (score_max - score_min)
-)
+if score_max > score_min:
+    valid_candidates["crowding_score_norm"] = (
+        (valid_candidates["crowding_score"] - score_min) / (score_max - score_min)
+    )
+else:
+    valid_candidates["crowding_score_norm"] = 0.0
 
-# write normalized score back to full candidates
 candidates = candidates.merge(
     valid_candidates[["lat", "lon", "crowding_score_norm"]],
     on=["lat", "lon"],
@@ -415,7 +414,7 @@ def compute_top5_for_params(beta_value, radius_value):
 
     tmp = candidates.copy()
     tmp["score"] = scores_tmp
-    tmp = tmp.dropna(subset=["score"]).sort_values("score", ascending=False).head(5)
+    tmp = tmp.sort_values("score", ascending=False).head(5)
     tmp["score"] = (tmp["score"] / 1_000_000).round(2)
     return tmp[["lat", "lon", "score"]]
 
@@ -436,21 +435,20 @@ print(compute_top5_for_params(beta_value=1.5, radius_value=2.5))
 # ----------------------------
 # 14. Save outputs
 # ----------------------------
-candidates.to_file("candidate_crowding_scores.geojson", driver="GeoJSON")
-candidates.drop(columns="geometry").to_csv("candidate_crowding_scores.csv", index=False)
+candidates.to_file("ss/candidate_crowding_scores.geojson", driver="GeoJSON")
+candidates.drop(columns="geometry").to_csv("ss/candidate_crowding_scores.csv", index=False)
 
-top20.to_file("top20_crowding_locations.geojson", driver="GeoJSON")
-top20.drop(columns="geometry").to_csv("top20_crowding_locations.csv", index=False)
+top20.to_file("ss/top20_crowding_locations.geojson", driver="GeoJSON")
+top20.drop(columns="geometry").to_csv("ss/top20_crowding_locations.csv", index=False)
 
-top100.to_file("top100_crowding_locations.geojson", driver="GeoJSON")
-top100.drop(columns="geometry").to_csv("top100_crowding_locations.csv", index=False)
+top100.to_file("ss/top100_crowding_locations.geojson", driver="GeoJSON")
+top100.drop(columns="geometry").to_csv("ss/top100_crowding_locations.csv", index=False)
 
-top10_table.to_csv("top10_candidate_locations_clean.csv", index=False)
-busiest_stations.to_csv("top20_busiest_stations.csv", index=False)
-relief_df.to_csv("top_relieved_stations.csv", index=False)
-zone_summary.to_csv("candidate_zones_summary.csv", index=False)
+top10_table.to_csv("ss/top10_candidate_locations_clean.csv", index=False)
+busiest_stations.to_csv("ss/top20_busiest_stations.csv", index=False)
+relief_df.to_csv("ss/top_relieved_stations.csv", index=False)
+zone_summary.to_csv("ss/candidate_zones_summary.csv", index=False)
 
-# Team-ready export
 team_scoring = candidates[
     [
         "lat",
@@ -462,79 +460,152 @@ team_scoring = candidates[
     ]
 ].copy()
 
-team_scoring.to_csv("team_crowding_scores.csv", index=False)
+team_scoring.to_csv("ss/team_crowding_scores.csv", index=False)
 
 print("\nSaved:")
-print("- candidate_crowding_scores.geojson")
-print("- candidate_crowding_scores.csv")
-print("- top20_crowding_locations.geojson")
-print("- top20_crowding_locations.csv")
-print("- top100_crowding_locations.geojson")
-print("- top100_crowding_locations.csv")
-print("- top10_candidate_locations_clean.csv")
-print("- top20_busiest_stations.csv")
-print("- top_relieved_stations.csv")
-print("- candidate_zones_summary.csv")
-print("- team_crowding_scores.csv")
+print("- ss/candidate_crowding_scores.geojson")
+print("- ss/candidate_crowding_scores.csv")
+print("- ss/top20_crowding_locations.geojson")
+print("- ss/top20_crowding_locations.csv")
+print("- ss/top100_crowding_locations.geojson")
+print("- ss/top100_crowding_locations.csv")
+print("- ss/top10_candidate_locations_clean.csv")
+print("- ss/top20_busiest_stations.csv")
+print("- ss/top_relieved_stations.csv")
+print("- ss/candidate_zones_summary.csv")
+print("- ss/team_crowding_scores.csv")
 
 
 # ----------------------------
-# 15. Useful visual 1: Top 100 candidates
+# 17. Folium map with London boundary
 # ----------------------------
-fig, ax = plt.subplots(figsize=(10, 8))
+import branca.colormap as cm
 
-stations.plot(
-    ax=ax,
-    color="lightgray",
-    markersize=8,
-    alpha=0.7
+london_boundary = gpd.read_file("ss/London_GLA_Boundary.shp")
+
+# make sure boundary is in lat/lon for folium
+if london_boundary.crs is None:
+    london_boundary = london_boundary.set_crs("EPSG:27700")
+
+if london_boundary.crs.to_string() != "EPSG:4326":
+    london_boundary = london_boundary.to_crs("EPSG:4326")
+
+m = folium.Map(
+    location=[51.5074, -0.1278],
+    zoom_start=10,
+    tiles="cartodbpositron"
 )
 
-top100.plot(
-    ax=ax,
-    column="crowding_score",
-    cmap="hot",
-    markersize=35,
-    legend=True,
-    alpha=0.9
+# add London boundary
+folium.GeoJson(
+    london_boundary.to_json(),
+    name="London Boundary",
+    style_function=lambda _: {
+        "color": "black",
+        "weight": 3,
+        "fillColor": "none",
+        "fillOpacity": 0
+    }
+).add_to(m)
+
+# fit map to boundary
+minx, miny, maxx, maxy = london_boundary.total_bounds
+m.fit_bounds([[miny, minx], [maxy, maxx]])
+
+# existing stations
+for _, row in stations.iterrows():
+    folium.CircleMarker(
+        location=[row["lat"], row["lon"]],
+        radius=2,
+        color="gray",
+        weight=1,
+        fill=True,
+        fill_color="gray",
+        fill_opacity=0.30,
+        opacity=0.30
+    ).add_to(m)
+
+# dynamic color scale for candidate points
+# use a compressed upper bound so colors transition faster
+score_min = top100["crowding_score"].min()
+score_max = top100["crowding_score"].quantile(0.80)
+
+# protect against degenerate case
+if score_max <= score_min:
+    score_max = top100["crowding_score"].max()
+
+colormap = cm.LinearColormap(
+    colors=[
+        "#2c7bb6",  # blue
+        "#abd9e9",  # light blue
+        "#ffffbf",  # yellow
+        "#fdae61",  # orange
+        "#d7191c"   # red
+    ],
+    vmin=score_min,
+    vmax=score_max,
+    caption="Crowding Reduction Score"
 )
 
-ax.set_title("Top 100 Candidate Locations by Crowding Reduction")
-ax.set_xlabel("Longitude")
-ax.set_ylabel("Latitude")
-plt.tight_layout()
-plt.show()
+# exact top 10 coordinate pairs from unrounded top10 dataframe
+top10_coords = set(zip(top10["lat"], top10["lon"]))
 
+# map coordinate pair -> rank
+top10_rank_lookup = {
+    (row["lat"], row["lon"]): int(row["rank"])
+    for _, row in top10.iterrows()
+}
 
-# ----------------------------
-# 16. Useful visual 2: Top 20 candidates with ranks
-# ----------------------------
-fig, ax = plt.subplots(figsize=(10, 8))
+# plot all top 100 candidates on the same dynamic color scale
+for _, row in top100.iterrows():
+    coord = (row["lat"], row["lon"])
+    is_top10 = coord in top10_coords
 
-stations.plot(
-    ax=ax,
-    color="gray",
-    markersize=8,
-    alpha=0.5
-)
+    # clamp score so high-end outliers do not flatten the color scale
+    score_for_color = min(row["crowding_score"], score_max)
+    point_color = colormap(score_for_color)
 
-top20.plot(
-    ax=ax,
-    color="red",
-    markersize=45
-)
-for i, (_, row) in enumerate(top20.iterrows(), start=1):
-    ax.text(
-        row["lon"] + 0.003,
-        row["lat"] + 0.002,
-        str(i),
-        fontsize=9,
-        weight="bold",
-        color="black"
+    # size also depends on score
+    if score_max > score_min:
+        normalized = (score_for_color - score_min) / (score_max - score_min)
+    else:
+        normalized = 0.5
+
+    base_radius = 5 + normalized * 5
+    radius = base_radius + 2 if is_top10 else base_radius
+
+    # top 10 stand out by border and label, not different fill color
+    border_color = "black" if is_top10 else point_color
+    weight = 2.5 if is_top10 else 1.2
+
+    popup_text = (
+        f"Score: {row['crowding_score'] / 1_000_000:.2f}M<br>"
+        f"Normalized score: {row['crowding_score_norm']:.3f}<br>"
+        f"Nearest station: {row['nearest_station']}<br>"
+        f"Distance: {row['nearest_station_distance_km']:.2f} km<br>"
+        f"Relieved stations: {row['top_relieved_stations']}"
     )
 
-ax.set_title("Top 20 Candidate Locations for Crowding Reduction")
-ax.set_xlabel("Longitude")
-ax.set_ylabel("Latitude")
-plt.tight_layout()
-plt.show()
+    if is_top10:
+        rank_value = top10_rank_lookup[coord]
+        popup_text = f"<b>Top 10 Candidate — Rank {rank_value}</b><br>" + popup_text
+
+    folium.CircleMarker(
+        location=[row["lat"], row["lon"]],
+        radius=radius,
+        color=border_color,
+        weight=weight,
+        fill=True,
+        fill_color=point_color,
+        fill_opacity=0.90,
+        opacity=1.0,
+        popup=popup_text
+    ).add_to(m)
+
+
+
+colormap.add_to(m)
+folium.LayerControl().add_to(m)
+
+m.save("ss/crowding_reduction_map.html")
+print("- ss/crowding_reduction_map.html")
