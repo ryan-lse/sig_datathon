@@ -82,7 +82,7 @@ REPO_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 GRAVITY_CSV      = os.path.join(REPO_ROOT, "Demand Prediction Model", "Output", "sorted_grid.csv")
 CROWDING_CSV     = os.path.join(REPO_ROOT, "Crowding_reduction", "output", "team_crowding_scores.csv")
-TRAVEL_CSV       = os.path.join(REPO_ROOT, "Travel  Time Reduction", "output", "candidate_reduction_scores(n=50).csv")
+TRAVEL_CSV       = os.path.join(REPO_ROOT, "Travel  Time Reduction", "output", "candidate_reduction_scores(n=108).csv")
 CONNECTIVITY_CSV = os.path.join(REPO_ROOT, "Connectivity", "connectivity_scores.csv")
 
 OUTPUT_DIR = os.path.join(REPO_ROOT, "final_weighting_score", "output")
