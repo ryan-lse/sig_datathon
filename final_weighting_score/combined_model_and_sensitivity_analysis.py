@@ -148,14 +148,21 @@ print(f"  range: {grid['crowding_norm'].min():.4f} – {grid['crowding_norm'].ma
 
 print("\n[3/4] Travel time reduction score ...")
 travel = pd.read_csv(TRAVEL_CSV)
-travel["lat_r"] = travel["lat"].round(6)
-travel["lon_r"] = travel["lon"].round(6)
+# Use round(4) for matching — the travel time CSV was generated from
+# a previous grid that has slight float differences due to the London
+# boundary re-clip and EPSG:27700 → EPSG:4326 reprojection
+travel["lat_r"] = travel["lat"].round(4)
+travel["lon_r"] = travel["lon"].round(4)
+grid["lat_r4_t"] = grid["lat"].round(4)
+grid["lon_r4_t"] = grid["lon"].round(4)
 
 grid = grid.merge(
-    travel[["lat_r", "lon_r", "total_reduction"]],
-    on=["lat_r", "lon_r"],
+    travel[["lat_r", "lon_r", "total_reduction"]].rename(
+        columns={"lat_r": "lat_r4_t", "lon_r": "lon_r4_t"}),
+    on=["lat_r4_t", "lon_r4_t"],
     how="left"
 )
+grid.drop(columns=["lat_r4_t", "lon_r4_t"], inplace=True, errors="ignore")
 # Only 50 grid points have travel time scores; fill rest with 0
 grid["total_reduction"] = grid["total_reduction"].fillna(0)
 grid["travel_time_norm"] = minmax(grid["total_reduction"])
