@@ -40,7 +40,7 @@ vmin = float(grid["gravity_log"].min())
 vmax = float(grid["gravity_log"].max())
 
 cmap = cm.LinearColormap(
-    ["#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c"],
+    ["#08306b", "#2171b5", "#6baed6", "#ef6548", "#cb181d", "#99000d"],
     vmin=vmin,
     vmax=vmax,
 )
